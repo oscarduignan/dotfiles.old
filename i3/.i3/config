@@ -5,21 +5,22 @@
 # this file and re-run i3-config-wizard(1).
 #
 
-exec --no-startup-id nitrogen --restore
+exec_always --no-startup-id nitrogen --restore
 exec --no-startup-id kmix
-exec_always pkill nm-applet; nm-applet
-exec_always pkill redshift; redshift-gtk -l 51.6:-0.16
+exec --no-startup-id nm-applet
+exec --no-startup-id redshift-gtk -l 51.6:-0.16
+
+# map caps to ctrl
 exec_always --no-startup-id setxkbmap -option ctrl:nocaps
 
 # don't turn screen off, screws up films and my battery is fucked anyway
-exec_always xset s off
-exec_always xset -dpm
+exec_always --no-startup-id xset s off
+exec_always --no-startup-id xset -dpms
 
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-#assign [class="Google-chrome-stable"] 2
 assign [class="Spotify"] 9
 
 set $mod Mod1
@@ -41,52 +42,56 @@ floating_modifier $mod
 
 focus_follows_mouse no
 
+# limit border on windows
+new_window 1pixel
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
 # start a browser
 bindsym Control+Mod1+Return exec google-chrome
 
-# kill focused window
-bindsym $mod+Shift+q kill
-
-new_window 1pixel
-
-# start dmenu (a program launcher)
-#bindsym $mod+d exec dmenu_run
-# There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed
+# quick open app
 bindsym F12 exec --no-startup-id j4-dmenu-desktop --dmenu="rofi -font Source\ Code\ Pro\ 10 -fixed-num-lines -lines 5 -bg black -fg '#999999' -bw 2 -bc '#111111' -dmenu -p '→'"
+
+# rofi - quick run
 bindsym $mod+Shift+Return exec rofi -show run -font Source\ Code\ Pro\ 10 -fixed-num-lines -lines 5 -bg black -fg '#999999' -bw 2 bc '#111111'
+
+# rofi - quick alt tab between windows
 bindsym $mod+Tab exec rofi -now -font Source\ Code\ Pro\ 10 -fixed-num-lines -lines 5 -bg black -fg '#999999' -bw 2 bc '#111111'
 
-#doesn't work, can just run: xkill though
-#bindsym Control+Mod1+BackSpace exec xkill
+# kill window with keybinding
+bindsym $mod+Shift+q kill
 
-# change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+# kill window with mod + middle mouse button
+bindsym --whole-window $mod+button2 kill
 
-# alternatively, you can use the cursor keys:
+# navigate windows
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
-# move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
-
-# alternatively, you can use the cursor keys:
+# move windows
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
+
+# move workspaces with keybindings
+bindsym $mod+Control+Left move workspace to output left
+bindsym $mod+Control+Down move workspace to output down
+bindsym $mod+Control+Up move workspace to output up
+bindsym $mod+Control+Right move workspace to output right
+
+# rename (move) workspace
+bindsym $mod+m exec i3-input -F 'rename workspace to "%s"' -P 'New name: '
+
+# enter pass through mode
+mode "pass" {
+    bindsym Escape mode "default"
+}
+bindsym $mod+p mode "pass"
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -96,9 +101,6 @@ bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen
-
-# rename workspace
-bindsym $mod+m exec i3-input -F 'rename workspace to "%s"' -P 'New name: '
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -111,13 +113,7 @@ bindsym $mod+Shift+space floating toggle
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
-# focus the parent container
-bindsym $mod+a focus parent
-
-# focus the child container
-#bindsym $mod+d focus child
-
-# switch to workspace
+# switch to workspace and show scratchpad so I can get persistent floating windows over all workspaces
 bindsym $mod+1 workspace 1; scratchpad show
 bindsym $mod+2 workspace 2; scratchpad show
 bindsym $mod+3 workspace 3; scratchpad show
@@ -140,12 +136,6 @@ bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
-
-# move current workspace between monitors
-bindsym $mod+Control+Left move workspace to output left
-bindsym $mod+Control+Down move workspace to output down
-bindsym $mod+Control+Up move workspace to output up
-bindsym $mod+Control+Right move workspace to output right
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -177,10 +167,10 @@ mode "resize" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-
 bindsym $mod+r mode "resize"
 
 bindsym Print exec ksnapshot
+
 bindsym $mod+Print exec scrot 'Kubuntu_%Y-%m-%d_%T.png' -e 'mv $f ~/Dropbox/Screenshots/'
 
 bindsym Control+Mod1+l exec i3-msg workspace 1 && i3lock -c 111111 -d
@@ -188,8 +178,6 @@ bindsym Control+Mod1+l exec i3-msg workspace 1 && i3lock -c 111111 -d
 # xprop to find window properties
 for_window [window_role="KMixWindow"] floating enable
 for_window [class="Spotify"] border none
-for_window [class="Dolphin"] floating enable
-for_window [class="Popcorn-time"] floating enable
 for_window [class="Pithos"] floating enable
 
 # change monitor setup between home and work
@@ -208,7 +196,7 @@ bar {
 	font pango:Source Code Pro 10
 }
 
-# Make the currently focused window a scratchpad
+# Make the currently focused window a scratchpad (mod + shift + space to "dock" it back)
 bindsym $mod+Shift+minus move scratchpad
 
 # Show the first scratchpad window
