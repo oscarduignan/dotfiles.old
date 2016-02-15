@@ -1,3 +1,6 @@
+(if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
+(if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
+
 ; Skip the default splash screen
 (setq inhibit-startup-message t)
 
@@ -10,9 +13,17 @@
 
 ; Require custom elisp
 (require 'setup-packages)
+(require 'setup-appearance)
 (require 'setup-projects)
 (require 'setup-git)
 (require 'setup-evil)
 (require 'setup-ace-jump-mode)
 (require 'setup-dired)
+(require 'setup-expand-region)
+(require 'setup-help)
+(require 'setup-complete)
+(require 'setup-ido)
 (require 'setup-flycheck)
+(require 'setup-js)
+(require 'setup-html)
+(require 'setup-orgmode)

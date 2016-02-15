@@ -1,0 +1,16 @@
+
+;; ----- smex-history -----
+(
+ projectile-global-mode
+ cd
+ 5x5
+ arp
+ dbx
+ dig
+ erc
+)
+
+;; ----- smex-data -----
+(
+ (projectile-global-mode . 2)
+)
