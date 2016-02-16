@@ -27,3 +27,5 @@
 (require 'setup-js)
 (require 'setup-html)
 (require 'setup-orgmode)
+(require 'setup-keybindings)
+(require 'setup-neotree)

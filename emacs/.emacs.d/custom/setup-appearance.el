@@ -9,6 +9,10 @@
 
 (show-paren-mode 1)
 
+(setq column-number-mode t)
+
+(setq-default truncate-lines nil)
+
 ; unclutter mode line
 (use-package diminish)
 
