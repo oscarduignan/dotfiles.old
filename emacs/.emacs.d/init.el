@@ -29,3 +29,4 @@
 (require 'setup-orgmode)
 (require 'setup-keybindings)
 (require 'setup-neotree)
+(require 'setup-server)

@@ -13,12 +13,6 @@
       org-startup-indented t
       org-hide-leading-stars t
       org-odd-level-only nil)
-    ;; Always use visual-line-mode in org-mode, and wrap it at column 80.
-    (add-hook
-     'org-mode-hook
-     (lambda ()
-       (visual-line-mode 1)
-       (set-visual-wrap-column 79)))
     (with-eval-after-load "evil"
       (evil-define-key 'normal org-mode-map
 	"H" 'org-shiftleft
@@ -35,5 +29,15 @@
 	(kbd "M-J") 'org-shiftmetadown
 	(kbd "M-K") 'org-shiftmetaup
 	(kbd "M-L") 'org-shiftmetaright))))
+
+(use-package visual-fill-column
+  :config
+  (progn
+    (add-hook
+     'org-mode-hook
+     (lambda ()
+       (visual-line-mode 1)
+       (setq visual-fill-column-width 79)
+       (visual-fill-column-mode 1)))))
 
 (provide 'setup-orgmode)
