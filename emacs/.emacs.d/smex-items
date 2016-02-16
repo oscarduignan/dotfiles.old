@@ -1,17 +1,19 @@
 
 ;; ----- smex-history -----
 (
+ speedbar
+ recentf-mode
  line-number-mode
  projectile-global-mode
  cd
  5x5
  arp
- dbx
- dig
 )
 
 ;; ----- smex-data -----
 (
  (projectile-global-mode . 2)
  (line-number-mode . 2)
+ (recentf-mode . 1)
+ (speedbar . 1)
 )

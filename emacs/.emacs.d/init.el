@@ -30,3 +30,4 @@
 (require 'setup-keybindings)
 (require 'setup-neotree)
 (require 'setup-server)
+(require 'setup-recentf)
