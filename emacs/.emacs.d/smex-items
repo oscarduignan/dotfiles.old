@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ webjump
+ customize-option
  speedbar
  recentf-mode
  line-number-mode
  projectile-global-mode
  cd
- 5x5
- arp
 )
 
 ;; ----- smex-data -----
@@ -16,4 +16,6 @@
  (line-number-mode . 2)
  (recentf-mode . 1)
  (speedbar . 1)
+ (customize-option . 1)
+ (webjump . 1)
 )
