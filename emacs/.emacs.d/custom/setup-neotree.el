@@ -11,7 +11,9 @@
   :commands neotree-projectile-action
   :bind ([f8] . neotree-toggle)
   :init
-  (setq projectile-switch-project-action 'neotree-projectile-action)
+  ;; disabled as I want it to C-p p f by default, as well as open the root directory of project in dired and change neotree dir
+  ;; I should take a look at helm-mini for this as seems awesome but don't want too much complexity, maybe have "C-p p P" too?
+  ;(setq projectile-switch-project-action 'neotree-projectile-action)
   :config
   ;; https://github.com/andrewmcveigh/emacs.d/blob/4d8431b6f6f2b2661eec5014c0ff31ab70f80ede/lisp/init-neotree.el
   (define-minor-mode neotree-evil

@@ -9,12 +9,6 @@
 (global-set-key (kbd "C-x <right>") 'windmove-right)
 (global-set-key (kbd "C-x <left>") 'windmove-left)
 
-; jump back and forth between windows I've been to! gold
-(defun frame-bck()
-  (interactive)
-  (other-window-or-frame -1)
-)
-(define-key (current-global-map) (kbd "M-o") 'other-window-or-frame)
-(define-key (current-global-map) (kbd "M-O") 'frame-bck)
+(define-key (current-global-map) (kbd "M-o") 'projectile-project-buffers-other-buffer)
 
 (provide 'setup-keybindings)

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ projectile-project-buffers-other-buffer
+ git-gutter:update-all-windows
  webjump
  customize-option
  speedbar
  recentf-mode
  line-number-mode
- projectile-global-mode
- cd
 )
 
 ;; ----- smex-data -----
@@ -18,4 +18,6 @@
  (speedbar . 1)
  (customize-option . 1)
  (webjump . 1)
+ (git-gutter:update-all-windows . 1)
+ (projectile-project-buffers-other-buffer . 2)
 )
