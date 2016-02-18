@@ -13,7 +13,7 @@
 
 (show-paren-mode 1)
 
-;(global-linum-mode 1)
+(global-linum-mode 1)
 
 ;; show me the column number in modeline
 (setq column-number-mode t)

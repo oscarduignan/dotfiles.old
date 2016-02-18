@@ -1,10 +1,10 @@
 
 ;; ----- smex-history -----
 (
+ linum-mode
  diff-hl-mode
  global-diff-hl-mode
  diff-buffer-with-file
- linum-mode
  line-number-mode
  delete-trailing-whitespace
  recover-this-file
@@ -22,7 +22,7 @@
  (projectile-project-buffers-other-buffer . 2)
  (recover-this-file . 1)
  (delete-trailing-whitespace . 2)
- (linum-mode . 2)
+ (linum-mode . 3)
  (diff-buffer-with-file . 1)
  (diff-hl-mode . 7)
  (global-diff-hl-mode . 3)

@@ -13,7 +13,9 @@
 (use-package magit
   :bind ("C-x g" . magit-status)
   :config
-  (define-key magit-status-mode-map (kbd "q") 'magit-quit-session))
+  (define-key magit-status-mode-map (kbd "q") 'magit-quit-session)
+  (with-eval-after-load "diff-hl"
+    (add-hook 'magit-post-refresh-hook 'diff-hl-magit-post-refresh)))
 
 ;; set your github creds in git config http://github.com/blog/180-local-github-config
 ;; then you can use M-x gist-[buffer|region] to create gist from buffer or selection
