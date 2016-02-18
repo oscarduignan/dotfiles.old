@@ -7,8 +7,6 @@
 ;; I like this theme but didn't work?
 ;(enable-theme 'tsdh-dark)
 
-;test
-
 (global-hl-line-mode 1)
 
 (show-paren-mode 1)
