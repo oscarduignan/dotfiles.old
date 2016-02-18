@@ -13,7 +13,7 @@
 
 ; Require custom elisp
 (require 'setup-packages)
-(require 'setup-appearance)
+(require 'setup-emacs)
 (require 'setup-projects)
 (require 'setup-git)
 (require 'setup-evil)

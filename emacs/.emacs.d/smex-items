@@ -1,23 +1,29 @@
 
 ;; ----- smex-history -----
 (
- projectile-project-buffers-other-buffer
- git-gutter:update-all-windows
- webjump
- customize-option
- speedbar
- recentf-mode
+ diff-hl-mode
+ global-diff-hl-mode
+ diff-buffer-with-file
+ linum-mode
  line-number-mode
+ delete-trailing-whitespace
+ recover-this-file
 )
 
 ;; ----- smex-data -----
 (
  (projectile-global-mode . 2)
- (line-number-mode . 2)
+ (line-number-mode . 3)
  (recentf-mode . 1)
  (speedbar . 1)
  (customize-option . 1)
  (webjump . 1)
- (git-gutter:update-all-windows . 1)
+ (git-gutter:update-all-windows . 2)
  (projectile-project-buffers-other-buffer . 2)
+ (recover-this-file . 1)
+ (delete-trailing-whitespace . 2)
+ (linum-mode . 2)
+ (diff-buffer-with-file . 1)
+ (diff-hl-mode . 7)
+ (global-diff-hl-mode . 3)
 )

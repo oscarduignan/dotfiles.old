@@ -1,3 +1,4 @@
+;; full screen magit status
 (defadvice magit-status (around magit-fullscreen activate)
   (window-configuration-to-register :magit-fullscreen)
   ad-do-it
@@ -14,16 +15,15 @@
   :config
   (define-key magit-status-mode-map (kbd "q") 'magit-quit-session))
 
-;; full screen magit-status
-
-
 ;; set your github creds in git config http://github.com/blog/180-local-github-config
 ;; then you can use M-x gist-[buffer|region] to create gist from buffer or selection
 (use-package gist)
 
-;; Mark uncommitted changes in the fringe (must save file first)
-(use-package git-gutter-fringe
+;; mark changes in the gutter, might switch to git-gutter as it has
+;; some commands to stage chunks which I think is prob useful
+(use-package diff-hl
   :config
-  (global-git-gutter-mode t))
+  (global-diff-hl-mode)
+  (diff-hl-flydiff-mode))
 
 (provide 'setup-git)
