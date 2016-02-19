@@ -29,4 +29,6 @@
 ;; unclutter mode line
 (use-package diminish)
 
+(use-package editorconfig)
+
 (provide 'setup-emacs)

@@ -1,0 +1,9 @@
+pwd
+cd Projects/ppl/v2/ppl/src/ppl/
+ls
+ls -la
+eslint
+eslint .
+eslint . -c .eslintrc 
+npm install babel-eslint
+eslint .

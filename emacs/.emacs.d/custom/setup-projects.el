@@ -1,7 +1,6 @@
 ; See http://batsov.com/projectile/
 (use-package projectile
-  :config
-  (projectile-global-mode)
-  :diminish projectile-mode)
+  :diminish projectile-mode
+  :config (projectile-global-mode))
 
 (provide 'setup-projects)

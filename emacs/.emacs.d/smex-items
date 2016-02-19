@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- global-linum-mode
  linum-mode
- diff-hl-mode
- global-diff-hl-mode
- diff-buffer-with-file
- line-number-mode
- delete-trailing-whitespace
+ eshell
+ visual-line-mode
+ visual-fill-column-mode
+ diredp-rename-this-file
+ rename-file
+ describe-variable
 )
 
 ;; ----- smex-data -----
@@ -22,9 +22,19 @@
  (projectile-project-buffers-other-buffer . 2)
  (recover-this-file . 1)
  (delete-trailing-whitespace . 2)
- (linum-mode . 4)
+ (linum-mode . 5)
  (diff-buffer-with-file . 1)
  (diff-hl-mode . 7)
  (global-diff-hl-mode . 3)
  (global-linum-mode . 1)
+ (evil-insert . 1)
+ (company-mode . 2)
+ (evil-normal-state . 1)
+ (ag . 1)
+ (describe-variable . 1)
+ (rename-file . 1)
+ (diredp-rename-this-file . 1)
+ (visual-fill-column-mode . 1)
+ (visual-line-mode . 1)
+ (eshell . 5)
 )

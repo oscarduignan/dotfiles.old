@@ -1,5 +1,4 @@
 (use-package company
-  :commands company-mode
   :config
   ;; Enable company-mode globally.
   (global-company-mode)

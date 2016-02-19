@@ -14,6 +14,7 @@
 ; Require custom elisp
 (require 'setup-packages)
 (require 'setup-emacs)
+(require 'setup-search)
 (require 'setup-projects)
 (require 'setup-git)
 (require 'setup-evil)
@@ -31,3 +32,5 @@
 (require 'setup-neotree)
 (require 'setup-server)
 (require 'setup-recentf)
+(require 'setup-snippets)
+(require 'setup-ledger)
