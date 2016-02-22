@@ -3,8 +3,8 @@
   :init
   (with-eval-after-load "evil-leader"
     (evil-leader/set-key
-        "c" 'ace-jump-char-mode
-        "w" 'ace-jump-word-mode
-        "l" 'ace-jump-line-mode)))
+        "jc" 'ace-jump-char-mode
+        "jw" 'ace-jump-word-mode
+        "jl" 'ace-jump-line-mode)))
 
 (provide 'setup-ace-jump-mode)

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ enable-theme
+ powerline-vim-theme
+ powerline-nano-theme
+ recover-this-file
+ recover-file
  linum-mode
  eshell
- visual-line-mode
- visual-fill-column-mode
- diredp-rename-this-file
- rename-file
- describe-variable
 )
 
 ;; ----- smex-data -----
@@ -20,7 +20,7 @@
  (webjump . 1)
  (git-gutter:update-all-windows . 2)
  (projectile-project-buffers-other-buffer . 2)
- (recover-this-file . 1)
+ (recover-this-file . 2)
  (delete-trailing-whitespace . 2)
  (linum-mode . 5)
  (diff-buffer-with-file . 1)
@@ -37,4 +37,8 @@
  (visual-fill-column-mode . 1)
  (visual-line-mode . 1)
  (eshell . 5)
+ (recover-file . 1)
+ (powerline-nano-theme . 1)
+ (powerline-vim-theme . 1)
+ (enable-theme . 1)
 )

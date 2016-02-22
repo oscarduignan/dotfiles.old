@@ -1,11 +1,4 @@
-;(use-package ample-theme
-  ;:init (progn (load-theme 'ample t t)
-               ;(load-theme 'ample-light t t))
-  ;:defer t
-  ;:ensure t)
-
-;; I like this theme but didn't work?
-;(enable-theme 'tsdh-dark)
+(use-package eclipse-theme)
 
 (global-hl-line-mode 1)
 
@@ -29,6 +22,15 @@
 ;; unclutter mode line
 (use-package diminish)
 
-(use-package editorconfig)
+(use-package editorconfig
+  :config
+  (editorconfig-mode 1))
+
+(use-package powerline
+  :config
+  (setq powerline-display-buffer-size nil)
+  (setq powerline-display-mule-info nil)
+  (setq powerline-display-hud nil)
+  (powerline-default-theme))
 
 (provide 'setup-emacs)

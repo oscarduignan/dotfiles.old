@@ -11,7 +11,7 @@
  '(browse-url-generic-program "google-chrome-stable")
  '(custom-safe-themes
    (quote
-    ("4f5bb895d88b6fe6a983e63429f154b8d939b4a8c581956493783b2515e22d6d" "12b4427ae6e0eef8b870b450e59e75122d5080016a9061c9696959e50d578057" default)))
+    ("f25c30c1de1994cc0660fa65c6703706f3dc509a342559e3b5b2102e50d83e4f" "4f5bb895d88b6fe6a983e63429f154b8d939b4a8c581956493783b2515e22d6d" "12b4427ae6e0eef8b870b450e59e75122d5080016a9061c9696959e50d578057" default)))
  '(speedbar-show-unknown-files t)
  '(speedbar-track-mouse-flag nil)
  '(speedbar-update-flag t)
