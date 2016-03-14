@@ -2,89 +2,209 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/oscar/Projects/MRC/src/" . "BIN/")
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/templates/" . "auth/")
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/lib/mix/" . "tasks/")
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/lib/" . "mix/")
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/" . "config/")
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/" . "scss/")
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/" . "templates/")
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/display_objects/custom/" . "dsp_career_pathways/")
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/display_objects/" . "custom/")
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/js/" . "career-pathways/")
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/" . "display_objects/")
+ ("/home/oscar/Projects/MRC/src/includes/themes/" . "MRC/")
+ ("/home/oscar/Projects/MRC/src/includes/" . "themes/")
+ ("/home/oscar/Projects/MRC/careermap/" . "jade-templates/")
+ ("/home/oscar/Projects/MRC/" . "careermap/")
+ ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/imports/" . "components/")
+ ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/" . "imports/")
+ ("/home/oscar/Projects/MRC/src/" . "includes/")
  ("/home/oscar/dotfiles/emacs/.emacs.d/" . "custom/")
  ("/home/oscar/dotfiles/emacs/" . ".emacs.d/")
  ("/home/oscar/.emacs.d/" . "custom/")
  ("/home/oscar/dotfiles/i3/" . ".i3/")
  ("/home/oscar/dotfiles/" . "emacs/")
  ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/shared/" . "imports/")
- ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/" . "shared/")
+ ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/" . "client/")
  ("/home/oscar/Projects/ppl/v2/ppl/src/" . "ppl/")
  ("/home/oscar/Projects/ppl/v2/ppl/" . "src/")
  ("/home/oscar/Projects/ppl/v2/" . "ppl/")
  ("/home/oscar/Projects/ppl/" . "v2/")
- ("/home/oscar/Projects/" . "ppl/")
+ ("/home/oscar/Projects/" . "BAS/")
  ("/home/oscar/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/oscar/.emacs.d/custom/"
- "/home/oscar/dotfiles/emacs/.emacs.d/"
+ "/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/imports/components/"
+ "/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/"
+ "/home/oscar/Projects/MRC/careermap/jade-templates/"
+ "/home/oscar/Projects/MRC/careermap/public/"
+ "/home/oscar/Projects/MRC/careermap/public/assets/scss/"
+ "/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/"
+ "/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/templates/auth/"
+ "/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/views/"
+ "/home/oscar/Projects/MRC/src/includes/themes/MRC/display_objects/custom/dsp_career_pathways/"
+ "/home/oscar/Projects/ppl/v2/ppl/"
+ "/home/oscar/Projects/BAS/"
+ "/home/oscar/Projects/MRC/src/includes/themes/MRC/css/theme/"
+ "/home/oscar/Projects/ppl/v2/elixir/src/ppl/"
+ "/home/oscar/Projects/ppl/v2/elixir/src/ppl/config/"
+ "/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/js/"
+ "/home/oscar/Projects/ppl/v2/elixir/src/ppl/lib/mix/tasks/"
+ "/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/scss/"
+ "/home/oscar/Projects/ppl/v2/elixir/"
  "/home/oscar/dotfiles/emacs/.emacs.d/custom/"
- "/home/oscar/.emacs.d/"
+ "/home/oscar/Projects/RAF100/"
+ "/home/oscar/Projects/RAF100/muracms/"
+ "/home/oscar/"
+ "/home/oscar/Projects/MRC/src/"
+ "/home/oscar/Projects/MRC/careermap/"
  "/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/imports/"
  "/home/oscar/Projects/ppl/v2/ppl/src/ppl/"
- "/home/oscar/"
+ "/home/oscar/.emacs.d/custom/"
+ "/home/oscar/dotfiles/emacs/.emacs.d/"
+ "/home/oscar/.emacs.d/"
  "/home/oscar/Projects/ppl/v2/ppl/src/ppl/shared/imports/"
  "/home/oscar/dotfiles/emacs/custom/"
- "/home/oscar/Projects/MRC/src/includes/themes/MRC/css/theme/"
  "/home/oscar/Projects/MRC/src/includes/themes/MRC/templates/"
  "/home/oscar/Projects/MRC/src/includes/themes/EPSRC/css/theme/"
  "/home/oscar/Projects/MRC/src/css/"
- "/home/oscar/Projects/MRC/src/"
  "/home/oscar/notes/"
  "/home/oscar/dotfiles/i3/.i3/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "setup-emacs.el"
- "custom.el"
- "init.el"
- "meteor.js"
- "friendships.js"
- ".eslintrc"
- "oscar.dat"
- "setup-ledger.el"
- "setup-projects.el"
- "setup-search.el"
+ "Login.jsx"
+ "index.jsx"
+ "Header.jsx"
+ "main.jsx"
+ "iframe.jade"
+ "build.jade"
+ "performance.jade"
+ "index.jade"
+ "index.html"
+ "_reset.scss"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/oscar/.emacs.d/custom/" (22218 60221 524762 934000) "setup-ido.el" "setup-emacs.el~" "setup-keybindings.el~" "setup-dired.el" "setup-expand-region.el" "setup-git.el" "setup-ledger.el" "./" "setup-neotree.el~" "setup-js.el" "../" "setup-snippets.el" "setup-evil.el" "setup-emacs.el" "#setup-packages.el#" "setup-recentf.el~" "setup-complete.el" "setup-projects.el" "setup-server.el" "setup-neotree.el" "setup-packages.el" "setup-keybindings.el" "setup-edit-server.el~" "setup-search.el" "setup-flycheck.el" "setup-ace-jump-mode.el" "setup-orgmode.el" "setup-recentf.el" "setup-html.el" "setup-help.el")
+ ("/home/oscar/.emacs.d/" (22243 54884 687861 61000) "auto-save-list/" "init.el" "eshell/" "#custom.el#" "snippets/" "./" "elpa/" "../" "custom.el" "recentf" "recentf~" "ido.last" "var/" "custom/" "smex-items" "backups/" "ido.last~" "projectile-bookmarks.eld" "projectile.cache")
 
- ("/home/oscar/.emacs.d/" (22218 60222 556761 386000) "auto-save-list/" "init.el" "eshell/" "#custom.el#" "snippets/" "./" "elpa/" "../" "custom.el" "recentf" "recentf~" "ido.last" "var/" "custom/" "smex-items" "ido.last~" "projectile-bookmarks.eld" "projectile.cache")
+ ("/home/oscar/" (22246 26196 487012 722000) ".keychain/" "app-build.min.js" ".fonts/" "The Man From Nowhere (2010) [1080p]/" "lucee.retry" "wddx_rstclassextendattributes.xml" "wddx_rstcontentfilenamearchive.xml" ".swn" "playbook.retry" ".npm/" "xrandr.sh" "cms guide to career pathways class extensions.odt" ".gem/" ".v8flags.4.6.85.31.oscar.json" ".docker/" "jci_clipped_search_icon_before.png" ".v8flags.3.28.71.19.oscar.json" ".nvimlog" "connecting-with-people.txt" "JC_Editorial_942_PDC.jpg" ".swo" ".kde/" ".recently-used" ".mozilla/" ".ansible/" ".Skype/" "cms.json" "wddx_context.xml" ".profile" ".i3/" "sole-trader.txt" ".gnome2/" "rxjs.txt" "wddx_rstcontentfeeditems.xml" "Umlet/" "mobile.xcf" "Videos/" "SDD-drupal.txt" ".dropbox-dist/" "index.html" "writing-meetup-feedback/" "deploy.retry" "wddx_rstcontentcategories.xml" ".bash_history" "wddx_rstpluginscripts.xml" "JC_Editorial_942_OaB.jpg" "wddx_rstfiles.xml" "Immigration_Directorate_Instruction_Appendix_FM_1_7_Financial_Requirement_August_2015.pdf" "vpn/" ".zgrviewer" "marks notes.odt" "wddx_rstclassextenddata.xml" "JC_CareLP_01_942_06.jpg" "wallpapers/" "Projects/" "IMPACT_MAPPING.mm" "The.Expanse.S01E02.1080p.HDTV.x264-BRISK[rarbg]/" "contact.html" "Music/" ".dropbox/" "tv.sh" ".xsession-errors.old" ".atom/" "The.Lobster.2015.LIMITED.1080p.BluRay.X264-AMIABLE[rarbg]/" "Documents/" ".gksu.lock" "sitefiles.zip" ".AMD/" ".yEd/" ".letter-to-ekarro.txt.swp" ".sublime-projects/" "en_windows_7_professional_with_sp1_x64_dvd_u_676939.iso" "wddx_rstclassextend.xml" "ansible.retry" "Popcorn-Time" "dotfiles/" ".java/" ".electron/" ".pip/" "ebooks/" "Calibre Library/" ".emacs.d/" "wddx_rstcontentfilemetadata.xml" ".swp" ".dbus/" ".gimp-2.8/" ".mplayer/" "Fargo.S02E02.720p.HDTV.x264-KILLERS[rarbg]/" "popcorntime.png" "staging.retry" "vagrant_railo_and_mysql.retry" "wddx_rstcontentfeeds.xml" "The.Expanse.S01E03.1080p.WEB-DL.DD5.1.H264-RARBG/" "locales/" "151207_RR02.jpg" "JC_CareLP_01_942_09.jpg" "mozilla.pdf" "wddx_rstcontentcommentcommenters.xml" "Bridge.of.Spies.2015.1080p.BluRay.x264-SPARKS[rarbg]/" "linked-captioned-images.png" ".adobe/" "wddx_bundleablebeans.xml" "Downloads/" ".dmrc" "BVCS HOW TOs (updated 110508).doc" "wddx_rstimagesizes.xml" "jenkins_server.retry" ".sudo_as_admin_successful" "tor-browser_en-US/" ".pencil/" "aescrypt-3.10/" ".putty/" ".subversion/" "wddx_tclassextendrcsets.xml" ".gnome/" ".swm" ".gnupg/" "The.Expanse.S01E04.1080p.WEB-DL.DD5.1.H264-RARBG/" "Fargo.S02E03.The.Myth.Of.Sisyphus.1080p.NF.WEBRip.DD5.1.x264-NTb[rarbg]/" ".rubies/" "Arundel_Map_2015.pdf" ".nano/" "core" "wddx_rstcontentcategoryassign.xml" "bitnami-hosting.7z" "5TAjKqWf.mkv" "The.Expanse.S01E01.1080p.HDTV.x264-BRISK[rarbg]/" "wddx_rstchangesetcategoryassign.xml" "vagrant.retry" "Search icon.psd" ".meteorsession" "Bone.Tomahawk.2015.1080p.BluRay.x264.DTS-HD.MA.5.1-RARBG/" "Peppa.Pig.Peppas.Christmas.2015.HDRip.XviD.AC3-EVO/" "Archi/" "Team Umizoomi Season 3 480p HDRIP Xvid Mp3-FooKaS/" ".archi/" "tmp/" "jci-reset-pass-2.png" "install" "mikado-test.dot" "JC_CareLP_01_942_08.jpg" "The.Gift.2015.1080p.BluRay.x264-DRONES[rarbg]/" "ansible/" "test/" "The Lion King 2 (1998)/" "__MACOSX/" ".viminfo" "popcorntime/" "access_log" "icudtl.dat" "jci-reset-pass-1.png" "christmas.txt" "wddx_rstcontentrelated.xml" ".freemind/" ".vagrant.d/" ".swj" "C807182E-5056-A318-A800EF9A041275E0.xls" "Hey both, I didn't work on the original foftravel" ".gconf/" ".ipython/" "wiki/" "Screen Shot 2015-02-23 at 16.54.20.png" "JC_Editorial_942_PD.jpg" "Peppa.Pig.Potato.City.2011  Dvdrip Xvid AC3 ACAB/" ".gitconfig" "wddx_rstcontenttags.xml" "Black.Mass.2015.1080p.BluRay.x264-BLOW[rarbg]/" "bas-test/" ".config/" "10-million-combos.txt" "2015-09-23.jpg" "dotfiles.backup/" "The.Hateful.Eight.2015.1080p.BluRay.x264-SPARKS[rarbg]/" "f.lux-indicator-applet/" "Elastic Search Plugins/" ".mix/" "recorded.gif" ".writing/" "UMLet/" "camercunt.png" "erlang-solutions_1.0_all.deb" "wddx_rstmailinglist.xml" "oscar.dat" ".macromedia/" ".swk" ".vim/" "contact-us.html" "Neon Genesis Evangelion/" "wddx_rstcontent.xml" "bernie.txt" "robots.txt" "Windows/" "noname.gv" "JC_CareLP_01_942_05.jpg" "wddx_assetPath.xml" "yEd/" ".bash_logout" "wddx_rstapprovalmemberships.xml" "wddx_rstapprovalactions.xml" ".saves/" "Templates/" "beeminder.txt" "2015 Annual report (camille)/" "zgrviewer-0.10.0/" "JC_Editorial_942_PDC_01.jpg" ".lesshst" "Airspace_MCMS_custom_form_movements_2015.cfm" "chillout/" "wddx_rstchangesets.xml" "mura-elasticsearch-2015-05-06.ogv" "workflowy.odt" "cbi-page-speed-pingdom.png" "wddx_rstapprovalrequests.xml" ".gnucash/" ".docker.txt.swp" "SocialMediaIcons_active.jpg" "notes/" ".bin/" ".node_repl_history" "wddx_bundledate.xml" "writings/" ".meteor/" "terraform/" ".npmrc" ".rnd" "The.Big.Short.2015.1080p.BluRay.x264-Replica[rarbg]/" "out.ogv" "Dropbox/" "zip" ".node-gyp/" ".nviminfo" "SocialMediaIcons.psd" ".babel-cache/" ".kde-backup/" ".thumbnails/" ".gstreamer-0.10/" "Public/" "libffmpegsumo.so" "erlang-solutions_1.0_all.deb.1" "Forum_P4_03.jpg" "win7 with sp1 iso[danhuk2k13][kickass.to]/" "untrusted-origin-js-error-when-video-embedded.png" ".local/" "psd extracts/" "784201617_RAF100_DesignPrinciples_St4B_JP_220515_files/" "wddx_rstapprovalassignments.xml" ".xmind/" "Screen Shot 2015-02-23 at 16.53.40.png" "2015-10-02 11-17-05.flv" "Desktop/" ".synergy/" "JC_Editorial_942_video03.jpg" ".travis/" ".aws/" ".gtkrc-2.0" "image-of-the-day-1.mkv" "fofv2/" "CategoryFilter/" "Iain Banks/" "150710_Layout_v1.2.jpg" "out-1.ogv" ".terraform.d/" ".fonts.conf" ".directory" "Dockerfile" "kdenlive/" ".babel.json" "package.nw" "jci-nested-list-styles.png" "letter-for-ekaro.txt" "Inherent.Vice.2014.720p.BluRay.x264.YIFY.mp4" "provision.retry" "wddx_rstsystemobjects.xml" "jci_clipped_search_icon_after.png" "wddx_rstclassextendsets.xml" ".swl" "jci-reset-pass-5.png" ".screenlayout/" "jci-reset-pass-3.png" "wddx_rstapprovalchains.xml" "mikado-test.jpg" "mysql.retry" ".install4j" ".mysql_history" ".swi" "PhpStorm-139.1348/" "VirtualBox VMs/" ".ssh/" "wddx_rstcontentfeedadvancedparams.xml" "wddx_rstplugindisplayobjects.xml" ".pki/" "Submit a Ticket - Battle (re: 52405132 ).pdf" ".cache/" "wddx_rstpluginsettings.xml" "timesheet.docx" "Fargo.S02E01.Waiting.for.Dutch.1080p.WEB-DL.DD5.1.H.264-Coo7[rarbg]/" "jci-reset-pass-4.png" ".gtk-recordmydesktop" ".Xauthority" "gphc-annual-report/" "wddx_rstpluginmodules.xml" "gphc-annual-report.zip" "image-of-the-day-1.gif" "resolve.conf.backup" "docker.txt" "Weir, Andy/" "C807182E-5056-A318-A800EF9A041275E0.xls.aes" ".xsession-errors" ".lastpass/" "gifs/" "ppl.odt" "binaryvision.docx" ".wordpress.txt.swp" "lumen's movies/" "bernie reply.odt" "recordings/" "dns" ".kingsoft/" ".hex/" "wddx_rstplugins.xml" "cbi-dnn-desc.odt" "inherent.vice.2014.720p.bluray.x264-sparks.mkv" ".bashrc" ".WebIde80/" ".cordova/" "wddx_hasmetadata.xml" "priorities.txt" ".composer/" "wddx_rssite.xml" "SocialMediaIcons_unactive.jpg" "Pictures/" "cbi-page-speed-pingdom1.png" ".v8flags.3.14.5.9.oscar.json" "tHsn9Bvz.mkv" "google2dbc9762bd7a205f.html" ".wicd/" "keybase-latest-amd64.deb" "nw.pak" "wddx_rstcontentobjects.xml" "wddx_sincedate.xml" "peppa 3/" "../" "./")
 
- ("/home/oscar/dotfiles/emacs/.emacs.d/" (22218 59994 83620 328000) "auto-save-list/" "init.el" "eshell/" "snippets/" "./" "elpa/" "../" "custom.el" "recentf" "recentf~" "ido.last" "var/" "custom/" "smex-items" "ido.last~" "projectile-bookmarks.eld" "projectile.cache")
+ ("/home/oscar/Projects/MRC/careermap/public/" (22224 21766 88444 572000) "build.html" "index.html" "application/" "./" "../" "iframe.html" "assets/" "performance.html")
 
- ("/home/oscar/dotfiles/emacs/.emacs.d/custom/" (22218 60020 772956 557000) "setup-ido.el" "setup-emacs.el~" "setup-keybindings.el~" "setup-dired.el" "setup-expand-region.el" "setup-git.el" "setup-ledger.el" "./" "setup-neotree.el~" "setup-js.el" "../" "setup-snippets.el" "setup-evil.el" "setup-emacs.el" "#setup-packages.el#" "setup-recentf.el~" "setup-complete.el" "setup-projects.el" "setup-server.el" "setup-neotree.el" "setup-packages.el" "setup-keybindings.el" "setup-edit-server.el~" "setup-search.el" "setup-flycheck.el" "setup-ace-jump-mode.el" "setup-orgmode.el" "setup-recentf.el" "setup-html.el" ".#setup-emacs.el" "setup-help.el")
+ ("/home/oscar/Projects/MRC/careermap/public/assets/" (22224 13301 682513 531000) "./" "../" "scss/" "img/" "css/")
 
- ("/home/oscar/" (22218 59122 47714 32000) ".keychain/" "app-build.min.js" ".fonts/" "The Man From Nowhere (2010) [1080p]/" "lucee.retry" ".swn" "playbook.retry" ".npm/" "xrandr.sh" "cms guide to career pathways class extensions.odt" ".gem/" ".docker/" "jci_clipped_search_icon_before.png" ".v8flags.3.28.71.19.oscar.json" ".nvimlog" "connecting-with-people.txt" "JC_Editorial_942_PDC.jpg" ".swo" ".kde/" ".recently-used" ".mozilla/" ".ansible/" ".Skype/" "cms.json" ".profile" ".i3/" "sole-trader.txt" ".gnome2/" "rxjs.txt" "Umlet/" "mobile.xcf" "Videos/" "SDD-drupal.txt" ".dropbox-dist/" "index.html" "writing-meetup-feedback/" "deploy.retry" ".bash_history" "JC_Editorial_942_OaB.jpg" "Immigration_Directorate_Instruction_Appendix_FM_1_7_Financial_Requirement_August_2015.pdf" "vpn/" ".zgrviewer" "marks notes.odt" "JC_CareLP_01_942_06.jpg" "wallpapers/" "Projects/" "IMPACT_MAPPING.mm" "The.Expanse.S01E02.1080p.HDTV.x264-BRISK[rarbg]/" "contact.html" "Music/" ".dropbox/" "tv.sh" ".xsession-errors.old" ".atom/" "The.Lobster.2015.LIMITED.1080p.BluRay.X264-AMIABLE[rarbg]/" "Documents/" ".gksu.lock" ".AMD/" ".yEd/" ".letter-to-ekarro.txt.swp" ".sublime-projects/" "en_windows_7_professional_with_sp1_x64_dvd_u_676939.iso" "ansible.retry" "Popcorn-Time" "dotfiles/" ".java/" ".electron/" ".pip/" "ebooks/" "Calibre Library/" ".emacs.d/" ".swp" ".dbus/" ".gimp-2.8/" ".mplayer/" "Fargo.S02E02.720p.HDTV.x264-KILLERS[rarbg]/" "popcorntime.png" "staging.retry" "vagrant_railo_and_mysql.retry" "The.Expanse.S01E03.1080p.WEB-DL.DD5.1.H264-RARBG/" "locales/" "151207_RR02.jpg" "JC_CareLP_01_942_09.jpg" "mozilla.pdf" "Bridge.of.Spies.2015.1080p.BluRay.x264-SPARKS[rarbg]/" "linked-captioned-images.png" ".adobe/" "Downloads/" ".dmrc" "BVCS HOW TOs (updated 110508).doc" "jenkins_server.retry" ".sudo_as_admin_successful" "tor-browser_en-US/" ".pencil/" "aescrypt-3.10/" ".putty/" ".subversion/" ".gnome/" ".swm" ".gnupg/" "The.Expanse.S01E04.1080p.WEB-DL.DD5.1.H264-RARBG/" "Fargo.S02E03.The.Myth.Of.Sisyphus.1080p.NF.WEBRip.DD5.1.x264-NTb[rarbg]/" ".rubies/" ".nano/" "core" "bitnami-hosting.7z" "5TAjKqWf.mkv" "The.Expanse.S01E01.1080p.HDTV.x264-BRISK[rarbg]/" "vagrant.retry" "Search icon.psd" "True.Detective.S02E01.PROPER.720p.HDTV.x264-KILLERS[rarbg]/" ".meteorsession" "Bone.Tomahawk.2015.1080p.BluRay.x264.DTS-HD.MA.5.1-RARBG/" "Archi/" ".archi/" "tmp/" "jci-reset-pass-2.png" "install" "mikado-test.dot" "JC_CareLP_01_942_08.jpg" "The.Gift.2015.1080p.BluRay.x264-DRONES[rarbg]/" "ansible/" "test/" "__MACOSX/" ".viminfo" "popcorntime/" "access_log" "icudtl.dat" "jci-reset-pass-1.png" "christmas.txt" ".freemind/" ".vagrant.d/" ".swj" "C807182E-5056-A318-A800EF9A041275E0.xls" "Hey both, I didn't work on the original foftravel" ".gconf/" ".ipython/" "wiki/" "Screen Shot 2015-02-23 at 16.54.20.png" "JC_Editorial_942_PD.jpg" ".gitconfig" "Black.Mass.2015.1080p.BluRay.x264-BLOW[rarbg]/" "bas-test/" ".config/" "10-million-combos.txt" "2015-09-23.jpg" "dotfiles.backup/" "f.lux-indicator-applet/" "Elastic Search Plugins/" ".mix/" "recorded.gif" ".writing/" "UMLet/" "camercunt.png" "erlang-solutions_1.0_all.deb" "oscar.dat" ".macromedia/" ".swk" ".vim/" "contact-us.html" "Neon Genesis Evangelion/" "bernie.txt" "robots.txt" "Windows/" "noname.gv" "JC_CareLP_01_942_05.jpg" "yEd/" ".bash_logout" "Templates/" "beeminder.txt" "2015 Annual report (camille)/" "zgrviewer-0.10.0/" "JC_Editorial_942_PDC_01.jpg" ".lesshst" "Airspace_MCMS_custom_form_movements_2015.cfm" "chillout/" "mura-elasticsearch-2015-05-06.ogv" "workflowy.odt" "cbi-page-speed-pingdom.png" ".gnucash/" ".docker.txt.swp" "SocialMediaIcons_active.jpg" "notes/" ".bin/" "writings/" ".meteor/" "terraform/" ".npmrc" ".rnd" "out.ogv" "Dropbox/" "zip" ".node-gyp/" ".nviminfo" "SocialMediaIcons.psd" ".babel-cache/" ".kde-backup/" ".thumbnails/" ".gstreamer-0.10/" "Public/" "libffmpegsumo.so" "Forum_P4_03.jpg" "win7 with sp1 iso[danhuk2k13][kickass.to]/" "untrusted-origin-js-error-when-video-embedded.png" ".local/" "psd extracts/" "784201617_RAF100_DesignPrinciples_St4B_JP_220515_files/" ".xmind/" "Screen Shot 2015-02-23 at 16.53.40.png" "2015-10-02 11-17-05.flv" "Desktop/" ".synergy/" "JC_Editorial_942_video03.jpg" ".travis/" ".aws/" ".gtkrc-2.0" "image-of-the-day-1.mkv" "fofv2/" "CategoryFilter/" "Iain Banks/" "150710_Layout_v1.2.jpg" "out-1.ogv" ".terraform.d/" ".fonts.conf" ".directory" "Dockerfile" "kdenlive/" ".babel.json" "package.nw" "jci-nested-list-styles.png" "letter-for-ekaro.txt" "Inherent.Vice.2014.720p.BluRay.x264.YIFY.mp4" "provision.retry" "jci_clipped_search_icon_after.png" ".swl" "jci-reset-pass-5.png" ".screenlayout/" "jci-reset-pass-3.png" "mikado-test.jpg" "mysql.retry" ".install4j" ".mysql_history" ".swi" "PhpStorm-139.1348/" "VirtualBox VMs/" ".ssh/" ".pki/" "Submit a Ticket - Battle (re: 52405132 ).pdf" ".cache/" "timesheet.docx" "Creed.2015.1080p.BluRay.x264-SPARKS[rarbg]/" "Fargo.S02E01.Waiting.for.Dutch.1080p.WEB-DL.DD5.1.H.264-Coo7[rarbg]/" "jci-reset-pass-4.png" ".gtk-recordmydesktop" ".Xauthority" "gphc-annual-report/" "gphc-annual-report.zip" "image-of-the-day-1.gif" "resolve.conf.backup" "docker.txt" "Weir, Andy/" "C807182E-5056-A318-A800EF9A041275E0.xls.aes" ".xsession-errors" ".lastpass/" "gifs/" "ppl.odt" "binaryvision.docx" ".wordpress.txt.swp" "lumen's movies/" "bernie reply.odt" "recordings/" "dns" ".kingsoft/" ".hex/" "cbi-dnn-desc.odt" "inherent.vice.2014.720p.bluray.x264-sparks.mkv" ".bashrc" ".WebIde80/" ".cordova/" "priorities.txt" ".composer/" "SocialMediaIcons_unactive.jpg" "Pictures/" "cbi-page-speed-pingdom1.png" ".v8flags.3.14.5.9.oscar.json" "tHsn9Bvz.mkv" "google2dbc9762bd7a205f.html" ".wicd/" "keybase-latest-amd64.deb" "nw.pak" "../" "./")
+ ("/home/oscar/Projects/MRC/careermap/public/assets/scss/" (22224 13301 686513 616000) "_cmapCareerStages.scss" "_cmapInteractive.scss" "./" "../" "_reset.scss" "_cmapCallout.scss" "_cmapSurveyCall.scss" "styles.scss" "_caseStudyLink.scss")
 
- ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/imports/" (22215 1930 881531 830000) "middleware.js" "routes.jsx" "./" "../" "friendships.js" "components/" "reducer.js" "network.js" ".tern-port" "meteor.js" "less/" "createStore.js" "containers/" "auth.js" "Root.jsx")
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/templates/" (22240 54440 909080 260000) "./" "auth/" "../" "page/" "layout/")
 
- ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/" (22215 1310 345605 208000) "client/" "./" "../" "private/" "package.json" ".meteor/" ".eslintrc" ".eslintrc~" "server/" "shared/" "node_modules/")
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/views/" (22240 56848 684640 159000) "auth_view.ex" "./" "../" "layout_view.ex" "page_view.ex" "error_helpers.ex" "error_view.ex")
+
+ ("/home/oscar/dotfiles/emacs/.emacs.d/" (22240 56519 931595 882000) "auto-save-list/" "init.el" "eshell/" "#custom.el#" "snippets/" "./" "#!home!oscar!Projects!ppl!v2!elixir!src!ppl!web!views!auth_view.ex#" "elpa/" "../" "custom.el" "recentf" "recentf~" "ido.last" "var/" "custom/" "smex-items" "backups/" "ido.last~" "projectile-bookmarks.eld" "projectile.cache")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/templates/auth/" (22240 54708 709899 723000) "login.html.eex" "./" "../")
+
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/templates/" (22240 21434 274645 392000) "two_column.cfm" "./" "feature_page.cfm" "../" "home.cfm" "components/" "sildeshow.cfm" "xml.cfm" "inc/" "folder.cfm" "two_column_wide.cfm" "default.cfm" "three_column.cfm" "one_column.cfm" "blank.cfm")
+
+ ("/home/oscar/Projects/MRC/src/" (22240 21433 878644 100000) "images/" "#index.cfm#" "./" "jquery/" ".gitignore" "BIN/" "../" ".git/" "index.cfm" "README.md" "mobile/" "includes/" "js/" "version.cfm" "css/")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/" (22239 63763 818576 299000) "webpack-dev-server.js" ".babelrc" "./" "_build/" ".editorconfig" ".gitignore" "../" "webpack.config.js" "test/" "mix.lock" "package.json" "README.md" "config/" "CHANGES.org" "lib/" ".eslintrc" "mix.exs" "web/" "priv/" "node_modules/" "deps/")
+
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/css/theme/" (22240 21433 938644 296000) "PIE.htc" "core.css" "grid990.css" "./" "../" "calibri.css" "print.css" "paginatedForm.css" "calibri/" "old.core.css" "mrc/" "ie/" "grid1140.css")
+
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/display_objects/custom/dsp_career_pathways/" (22240 21433 958644 362000) "./" "../" "Application.cfc" "diagram.cfm")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/" (22238 222 610154 108000) "web.ex" "./" "auth/" "../" "gettext.ex" "channels/" "controllers/" "router.ex" "static/" "templates/" "models/" "views/")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/controllers/" (22240 54209 476383 59000) "page_controller.ex" "./" "../" "auth_controller.ex")
+
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/display_objects/custom/" (22233 48265 389998 280000) "extensions/" "dsp_list_child_pages.cfm" "./" "dsp_folder_search.cfm" "../" "dsp_application_deadlines_table.cfm" "dsp_career_pathways.cfm" "dsp_featurePage_carousel.cfm" "dsp_career_pathways/" "dsp_featurePage_diagram.cfm" "dsp_feedInfo.cfm" "dsp_career_pathways_links.cfm" "dsp_featurePage.cfm" "dsp_featurePage_caseStudy.cfm" "dsp_page_list.cfm")
+
+ ("/home/oscar/Projects/BAS/2016-03-09/BAS/wordpress/wp-content/plugins/BAS/" (22240 21272 106115 115000) "phpunit.xml" "BAS.php" "composer.phar" "./" "tests/" ".gitignore" "../" "Makefile" ".git/" "package.json" "README.md" "assets/" "lib/" "composer.lock" "composer.json" "plugin.tar.gz" "vendor/" "webpack/" "node_modules/")
+
+ ("/home/oscar/Projects/ppl/v2/" (22233 64214 681193 491000) "ppl/" "./" "elixir/" "../" "mongo/" "neo4j/")
+
+ ("/home/oscar/Projects/BAS/" (22240 17481 268327 811000) "publications.json" "WikipediaSearch2.jsx" "ImageQueueStore.jsx" ".vagrant/" "BAS-Improved-Architecture.graphml" "example_plugins/" "notes.txt" "console-polyfill.js" "bas-image-import-library-page.png" "BAS/" "./" "shim.min.js" "tests/" "2016-03-09/" "WikipediaSearch4.jsx" "../" "Makefile" "wp-content/" ".idea/" "ansible.yml" "logs/" "RxTests.jsx" "WikipediaSearch.jsx" "publications.json.log" "WikipediaSearch3.jsx" "apache.conf" "wp-config.php" ".htaccess" "Vagrantfile" "taxonomy_query.php" "resources/" "bas-image-import-insert-media-tab.png" "wordpress/" "publications-syncer.txt" "demos/" "get_people.json")
+
+ ("/home/oscar/Projects/BAS/2016-03-09/" (22240 17782 69814 245000) "Archive(1).zip" "./" "../" "Sync.php" "docker-compose.yml" "Sync/" "Dockerfile" "log_2016-03-07.txt")
+
+ ("/home/oscar/Projects/" (22233 39600 628840 482000) "binaryvision.com/" "shaktihealinggardens.co.uk/" "mura-docker/" "MuraElasticsearch-old1/" ".vagrant/" "node/" "RAF100/" "gphc/" "MuraElasticsearch.zip" "index.html" "ppl/" "meteor_testing/" "MuraElasticsearch/" "BAS/" "./" "elixir/" "old-ppl/" "remote-medias-lite/" "PHPTest/" "bv-jenkins/" ".swp" "examples/" "WordPressTest/" "GPHC-annual-report/" "../" "journal/" "kew/" "MRC/" "JCI/" "tmp/" "crossbar-testing/" "react-hot-boilerplate/" "rxjs/" "release-site-wide-survey/" "crowdfunding.foftravel.com.png" "projectpromise.io/" "hugo/" "htdocs/" "CBI/" "MuraElasticsearch-old2/" "keyCHAINS/" "railo-mysql-time/" "raf-station-map-mura-plugin/" "server-dotfiles-master.zip" "react-starter/" "shaktihealinggardens.com/" "elastic-react-rxjs/" "RAF/" "koajs-react-router/" "blog/" "baconsnake/" "old_dotfiles-master.zip" "jekyll/" "Vagrantfile" "foftravel.com/" "bv-ansible/" "# Found or been given one of our keychains?" "reactive-programming-with-rxjs-book-code-examples/" "meteor/" "the-tiniest-service/" "rafwsaa/" "wordpress/")
+
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/" (22233 48265 389998 280000) "constants.cfm" "images/" "./" "../" "compiled/" "resourceBundles/" "contentRenderer.cfc" "README.md" "assets/" "eventHandler.cfc" "display_objects/" "templates/" "js/" "config.xml.cfm" "css/")
+
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/templates/inc/" (22229 52554 605198 318000) "footer.cfm" "./" "home_slider.cfm" "header_strip.cfm" "../" "home_secondary.cfm" "breadcrumb.cfm" "keyfacts_slider.cfm" "navbar.cfm" "latestupdates_slider.cfm" "slideshow.cfm" "html_foot.cfm" "html_head.cfm" "feature_page_slideshow.cfm" "strategic_aims_menu.cfm")
+
+ ("/home/oscar/.emacs.d/custom/" (22235 30512 828722 575000) "setup-ido.el" "setup-emacs.el~" "setup-keybindings.el~" "setup-dired.el" "setup-expand-region.el" "setup-git.el" "setup-ledger.el" "./" "setup-neotree.el~" "setup-js.el" "../" "setup-snippets.el" "setup-evil.el" "setup-emacs.el" "#setup-packages.el#" "setup-recentf.el~" "setup-complete.el" "setup-projects.el" "setup-server.el" "setup-neotree.el" "setup-packages.el" "setup-keybindings.el" "setup-alchemist.el~" "setup-edit-server.el~" "setup-search.el" "setup-flycheck.el" "setup-ace-jump-mode.el" "setup-orgmode.el" "setup-alchemist.el" "setup-recentf.el" "setup-html.el" "setup-help.el")
+
+ ("/home/oscar/dotfiles/emacs/.emacs.d/custom/" (22235 30512 828722 575000) "setup-ido.el" "setup-emacs.el~" "setup-keybindings.el~" "setup-dired.el" "setup-expand-region.el" "setup-git.el" "setup-ledger.el" "./" "setup-neotree.el~" "setup-js.el" "../" "setup-snippets.el" "setup-evil.el" "setup-emacs.el" "#setup-packages.el#" "setup-recentf.el~" "setup-complete.el" "setup-projects.el" "setup-server.el" "setup-neotree.el" "setup-packages.el" "setup-keybindings.el" "setup-alchemist.el~" "setup-edit-server.el~" "setup-search.el" "setup-flycheck.el" "setup-ace-jump-mode.el" "setup-orgmode.el" "setup-alchemist.el" "setup-recentf.el" "setup-html.el" "setup-help.el")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/" (22235 30238 593604 879000) "./" ".gitignore" "../" ".git/" "docker-compose.yml" "README.org" "src/")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/js/" (22235 30691 613675 54000) "./" "../" "main.js")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/config/" (22235 28876 322181 64000) "dev.exs" "test.exs" "./" "../" "config.exs" "prod.secret.exs" "#dev.exs#" "prod.exs")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/" (22235 7249 310046 418000) "images/" "./" "../" "robots.txt" "favicon.ico" "js/" "scss/" "vendor/")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/lib/mix/tasks/" (22235 5354 491521 512000) "digest.ex~" "./" "digest.ex" "../")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/" (22233 64378 978592 513000) "ppl/" "./" "../")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/scss/" (22235 4408 199739 826000) "./" "../" "main.scss")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/lib/mix/" (22234 4992 484581 252000) "./" "../" "tasks/")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/lib/" (22234 4992 484581 252000) "ppl/" "./" "../" "mix/" "ppl.ex")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/templates/layout/" (22234 12891 124816 525000) "./" "app.html.eex" "../" "app.html.eex~")
+
+ ("/home/oscar/Projects/RAF100/muracms/" (22233 44192 484915 240000) "./" "license.txt" "web.config.txt" ".gitignore" "../" "bundles/" ".git/" "index.cfm" "config/" "robots.txt" "default/" "Application.cfc" "htaccess.txt" "Mura_CMS_contribution_agreement.pdf" "web.config" "admin/" "rafcentenary/" "Installation.txt" "plugins/" "requirements/")
+
+ ("/home/oscar/Projects/RAF100/" (22233 44233 849060 669000) "mura-raf100-theme/" "./" "../" "muracms/" "bundles/" "docker-compose.yml" "README.org" "Dockerfile")
+
+ ("/var/" (21575 64136 0 0) "lock/" "opt/" "tmp/" "spool/" "log/" "lib/" "run/" "backups/" "crash/" "mail/" "metrics/" "local/" "cache/" "./" "../")
+
+ ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/" (22232 4666 176476 495000) "client/" "./" "../" ".tern-project" "private/" "package.json" "public/" ".meteor/" ".eslintrc" "#package.json#" ".eslintrc~" ".tern-project~" "server/" "shared/" "node_modules/")
+
+ ("/home/oscar/Projects/MRC/careermap/" (22229 52160 492035 712000) "./" "server.js" ".gitignore" "../" ".openshift/" ".git/" "jade-templates/" ".sass-cache/" "package.json" "public/" "gulpfile.js" "Procfile" "node_modules/")
+
+ ("/home/oscar/Projects/MRC/careermap/jade-templates/" (22224 21651 629487 226000) "./" "../" "build.jade" "iframe.jade" "performance.jade" "index.jade")
+
+ ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/" (22232 8712 348988 474000) "./" "imports/" "../" "main.html" "main.jsx" "main.less")
+
+ ("/home/oscar/Projects/MuraElasticsearch/test/mura/" (22066 963 816059 903000) "tomcat/" "./" "../" "display_objects/" "Dockerfile" "datasource.cfm")
+
+ ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/imports/less/" (22231 48640 503514 719000) "login.less" "./" "../" "utilities.less" "config/" "follow-us.less" "header.less" "container.less")
+
+ ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/imports/" (22232 4143 960394 537000) "middleware.js" "routes.jsx" "DDP.js" "rxMeteor.js" "./" "../" "rxMeteor.js~" "friendships.js" "components/" "sorting.js~" "reducer.js" "network.js" "meteor.js" "less/" "createStore.js" "DDP.js~" "sorting.js" "containers/" "semantic-ui/" "auth.js" "Root.jsx")
+
+ ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/imports/components/" (22232 6526 942955 585000) "./" "FollowUs.jsx" "../" "BlazeTemplate.js" "Header.jsx" "Login.jsx" "index.jsx" "Link.jsx")
+
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/display_objects/" (22224 11541 121217 604000) "dsp_search_results.cfm" "htmlhead/" "./" "formbuilder/" "nav/" "../" "dsp_content_list_search.cfm" "dsp_nextN.cfm" "comments/" "calendar/" "dsp_content_list.cfm" "dsp_related_content.cfm" "custom/" "dsp_feed.cfm" "gallery/" "read_me.txt")
+
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/js/career-pathways/" (22224 13387 344338 747000) "application/" "./" "../" "assets/" "ua-parser.min.js")
+
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/js/" (21741 63760 886227 311000) "career-pathways/" "./" "theme/" "jquery/" "../" "editor/" "paginatedForm/")
+
+ ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/server/imports/" (22223 38945 304827 579000) "./" "utils.js" "../" "friendships.js" "authServices.js" "publications.js" "collectionHooks.js" "neo4j.js" "seeds.js" "methods.js")
+
+ ("/home/oscar/Projects/ppl/v2/ppl/" (22216 38745 938169 950000) "bin/" "docs/" "./" ".editorconfig" ".gitignore" "../" "deploy/" ".git/" "README.md" "docker-compose.yml" "src/" "build/")
+
+ ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/server/" (22191 8553 66187 643000) "./" "imports/" "../" "main.js")
+
+ ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/shared/imports/" (22215 1418 854103 503000) "./" "../" "friendships.js")
 
  ("/home/oscar/dotfiles/emacs/custom/" (22214 59925 480175 48000) "./" "../" "setup-ledger.el~")
-
- ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/" (22187 65055 748109 140000) "./" "imports/" "../" "main.html" "main.jsx" "main.less")
 
  ("/home/oscar/dotfiles/emacs/" (22214 59707 495690 830000) "./" ".emacs.d/" "../" "custom/")
 
  ("/home/oscar/Projects/MRC/src/includes/themes/EPSRC/css/theme/" (22213 45209 141092 64000) "core.css" "grid990.css" "./" "../" "#grid1140.css#" "ie/" "grid1140.css")
 
- ("/home/oscar/Projects/MRC/src/includes/themes/MRC/css/theme/" (22213 58701 593412 149000) "PIE.htc" "core.css" "grid990.css" "./" "../" "calibri.css" "print.css" "paginatedForm.css" "calibri/" "old.core.css" "mrc/" "ie/" "grid1140.css")
-
- ("/home/oscar/Projects/MRC/src/includes/themes/MRC/templates/" (22212 28150 641139 367000) "two_column.cfm" "./" "feature_page.cfm" "../" "home.cfm" "components/" "sildeshow.cfm" "xml.cfm" "inc/" "folder.cfm" "two_column_wide.cfm" "default.cfm" "three_column.cfm" "one_column.cfm" "blank.cfm")
-
- ("/home/oscar/Projects/MRC/src/includes/themes/MRC/" (22164 63497 842865 631000) "constants.cfm" "images/" "./" "../" "compiled/" "resourceBundles/" "contentRenderer.cfc" "README.md" "assets/" "eventHandler.cfc" "display_objects/" "templates/" "js/" "config.xml.cfm" "css/")
-
  ("/home/oscar/Projects/MRC/src/includes/themes/MRC/css/" (21860 32725 575658 388000) "jquery-ui/" "./" "theme/" "../" "editor/" "admin/")
-
- ("/home/oscar/Projects/MRC/src/" (22212 28150 633139 338000) "images/" "#index.cfm#" "./" "jquery/" ".gitignore" "BIN/" "../" ".git/" "index.cfm" "README.md" "mobile/" "includes/" "js/" "version.cfm" "css/")
 
  ("/home/oscar/Projects/MRC/src/includes/" (21732 31692 379559 244000) "./" "../" "resourceBundles/" "email/" "contentRenderer.cfc" "Application.cfc" "eventHandler.cfc" "display_objects/" "themes/")
 
@@ -112,19 +232,11 @@
 
  ("/home/oscar/dotfiles/i3/" (22124 39639 519319 865000) ".i3/" "./" "../")
 
- ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/shared/imports/" (22209 18282 630709 8000) "./" "../" "friendships.js")
-
  ("/home/oscar/Projects/ppl/v2/ppl/src/ppl/shared/" (22170 19007 406066 433000) "./" "imports/" "../")
 
  ("/home/oscar/Projects/ppl/v2/ppl/src/" (22201 14980 590924 30000) "ppl/" "./" "../")
 
- ("/home/oscar/Projects/ppl/v2/ppl/" (22201 15070 923208 870000) "bin/" "docs/" "./" ".editorconfig" ".gitignore" "../" "deploy/" ".git/" "README.md" "docker-compose.yml" "src/" "build/")
-
- ("/home/oscar/Projects/ppl/v2/" (22195 50115 63504 736000) "ppl/" "./" "../" "mongo/" "neo4j/")
-
  ("/home/oscar/Projects/ppl/" (22200 64985 391163 183000) "notes1.txt" "ppl/" "gagarin_duide.pdf" "iwoork:ppl/" "./" "file_structure_for_ppl.txt" "../" "accounts-entry/" "chromedriver" "test/" "v2/" "mongo/" "rxjs-react/" "neo4j/")
-
- ("/home/oscar/Projects/" (22204 46365 314780 546000) "binaryvision.com/" "shaktihealinggardens.co.uk/" "MuraElasticsearch-old1/" ".vagrant/" "node/" "gphc/" "MuraElasticsearch.zip" "index.html" "ppl/" "meteor_testing/" "MuraElasticsearch/" "BAS/" "./" "elixir/" "old-ppl/" "remote-medias-lite/" "PHPTest/" "bv-jenkins/" ".swp" "examples/" "WordPressTest/" "GPHC-annual-report/" "../" "journal/" "kew/" "MRC/" "JCI/" "tmp/" "crossbar-testing/" "react-hot-boilerplate/" "rxjs/" "release-site-wide-survey/" "crowdfunding.foftravel.com.png" "projectpromise.io/" "hugo/" "htdocs/" "CBI/" "MuraElasticsearch-old2/" "keyCHAINS/" "railo-mysql-time/" "raf-station-map-mura-plugin/" "server-dotfiles-master.zip" "react-starter/" "shaktihealinggardens.com/" "elastic-react-rxjs/" "RAF/" "koajs-react-router/" "blog/" "baconsnake/" "old_dotfiles-master.zip" "jekyll/" "Vagrantfile" "foftravel.com/" "bv-ansible/" "# Found or been given one of our keychains?" "reactive-programming-with-rxjs-book-code-examples/" "meteor/" "the-tiniest-service/" "rafwsaa/" "wordpress/")
 
  ("/home/" (21671 19135 492665 388000) "./" "lost+found/" "../" ".directory" "oscar/")
 

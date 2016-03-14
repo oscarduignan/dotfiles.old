@@ -34,3 +34,4 @@
 (require 'setup-recentf)
 (require 'setup-snippets)
 (require 'setup-ledger)
+(require 'setup-alchemist)

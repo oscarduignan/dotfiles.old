@@ -45,17 +45,16 @@
   )
 
 ;; Use Tern for smarter JS.
-(use-package tern
-  :config
-  (add-hook 'web-mode-hook (lambda () (tern-mode t)))
+;(use-package tern
+  ;:config
+  ;(add-hook 'js2-mode-hook (lambda () (tern-mode t)))
   ;; Locate the Tern binary by querying the system search path, which
   ;; should now include the local npm prefix.
-  (setq tern-command (list "tern"))
+  ;(setq tern-command (list "tern"))
   ;; Setup Tern as an autocomplete source.
-  (with-eval-after-load "company"
-    (use-package company-tern
-      :commands company-tern
-      :config
-      (add-to-list 'company-backends 'company-tern))))
+  ;(with-eval-after-load "company"
+    ;(use-package company-tern
+      ;:config
+      ;(add-to-list 'company-backends 'company-tern))))
 
 (provide 'setup-js)

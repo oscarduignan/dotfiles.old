@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- enable-theme
- powerline-vim-theme
- powerline-nano-theme
- recover-this-file
- recover-file
+ delete-window
+ neotree-projectile-action
  linum-mode
- eshell
+ line-number-mode
+ make-directory
+ toggle-truncate-lines
+ visual-line-mode
 )
 
 ;; ----- smex-data -----
 (
  (projectile-global-mode . 2)
- (line-number-mode . 3)
+ (line-number-mode . 4)
  (recentf-mode . 1)
  (speedbar . 1)
  (customize-option . 1)
@@ -22,23 +22,46 @@
  (projectile-project-buffers-other-buffer . 2)
  (recover-this-file . 2)
  (delete-trailing-whitespace . 2)
- (linum-mode . 5)
+ (linum-mode . 10)
  (diff-buffer-with-file . 1)
- (diff-hl-mode . 7)
+ (diff-hl-mode . 8)
  (global-diff-hl-mode . 3)
  (global-linum-mode . 1)
- (evil-insert . 1)
+ (evil-insert . 2)
  (company-mode . 2)
  (evil-normal-state . 1)
- (ag . 1)
- (describe-variable . 1)
+ (ag . 3)
+ (describe-variable . 2)
  (rename-file . 1)
  (diredp-rename-this-file . 1)
- (visual-fill-column-mode . 1)
- (visual-line-mode . 1)
+ (visual-fill-column-mode . 4)
+ (visual-line-mode . 5)
  (eshell . 5)
  (recover-file . 1)
  (powerline-nano-theme . 1)
  (powerline-vim-theme . 1)
  (enable-theme . 1)
+ (read-only-mode . 1)
+ (js2-jump-to-definition . 6)
+ (tern-find-definition . 8)
+ (tern-find-definition-by-name . 2)
+ (tern-mode . 3)
+ (web-mode . 1)
+ (js2-mode . 1)
+ (tern-highlight-refs . 1)
+ (evil-open-fold . 2)
+ (evil-open-folds . 1)
+ (neotree-refresh . 6)
+ (neotree . 1)
+ (split-window-right . 1)
+ (split-window-vertically . 1)
+ (buffer-menu . 1)
+ (elixir-mode . 2)
+ (make-directory . 2)
+ (set-variable . 1)
+ (toggle-word-wrap . 2)
+ (toggle-truncate-lines . 5)
+ (neotree-change-root . 1)
+ (neotree-projectile-action . 1)
+ (delete-window . 1)
 )
