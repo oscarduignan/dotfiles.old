@@ -27,4 +27,22 @@
 
 (define-key minibuffer-local-map [escape] 'keyboard-escape-quit)
 
+(defun evil-shift-left-visual ()
+  (interactive)
+  (evil-shift-left (region-beginning) (region-end))
+  (evil-normal-state)
+  (evil-visual-restore))
+
+(defun evil-shift-right-visual ()
+  (interactive)
+  (evil-shift-right (region-beginning) (region-end))
+  (evil-normal-state)
+  (evil-visual-restore))
+
+; Overload shifts so that they don't lose the selection
+(define-key evil-visual-state-map (kbd ">") 'evil-shift-right-visual)
+(define-key evil-visual-state-map (kbd "<") 'evil-shift-left-visual)
+(define-key evil-visual-state-map [tab] 'evil-shift-right-visual)
+(define-key evil-visual-state-map [S-tab] 'evil-shift-left-visual)
+
 (provide 'setup-evil)

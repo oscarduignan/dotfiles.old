@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ helm-find-files
+ helm-recentf
+ helm-do-ag
+ helm-do-ag-project-root
+ helm-projects-find-files
+ helm-ag-project-root
  helm-all-mark-rings
- comment-dwim
- comment-region
- linum-mode
- whitespace-mode
- visual-line-mode
- find-file-fullscreen
 )
 
 ;; ----- smex-data -----
@@ -69,4 +69,10 @@
  (comment-region . 1)
  (comment-dwim . 1)
  (helm-all-mark-rings . 1)
+ (helm-ag-project-root . 1)
+ (helm-projects-find-files . 1)
+ (helm-do-ag-project-root . 1)
+ (helm-do-ag . 1)
+ (helm-recentf . 1)
+ (helm-find-files . 1)
 )
