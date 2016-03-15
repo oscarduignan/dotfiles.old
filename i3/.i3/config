@@ -23,7 +23,7 @@ exec_always --no-startup-id xset -dpms
 
 assign [class="Spotify"] 9
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -49,7 +49,10 @@ new_window 1pixel
 bindsym $mod+Return exec i3-sensible-terminal
 
 # start a browser
-bindsym Control+Mod1+Return exec google-chrome
+bindsym Control+$mod+Return exec google-chrome
+
+# start emacs
+bindsym mod1+$mod+Return exec emacs24
 
 # quick open app
 bindsym F12 exec --no-startup-id j4-dmenu-desktop --dmenu="rofi -font Source\ Code\ Pro\ 10 -fixed-num-lines -lines 5 -bg black -fg '#999999' -bw 2 -bc '#111111' -dmenu -p '→'"
@@ -62,15 +65,16 @@ bindsym $mod+Tab exec rofi -now -font Source\ Code\ Pro\ 10 -fixed-num-lines -li
 
 # kill window with keybinding
 bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # kill window with mod + middle mouse button
 bindsym --whole-window $mod+button2 kill
 
 # navigate windows
 bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+bindsym $mod+Down focus down; scratchpad show; focus mode_toggle
+bindsym $mod+Up focus up; scratchpad show; focus mode_toggle
+bindsym $mod+Right focus right; scratchpad show; focus mode_toggle
 
 # move windows
 bindsym $mod+Shift+Left move left
@@ -105,6 +109,7 @@ bindsym $mod+f fullscreen
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
+bindsym $mod+t layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -114,16 +119,26 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # switch to workspace and show scratchpad so I can get persistent floating windows over all workspaces
-bindsym $mod+1 workspace 1; scratchpad show
-bindsym $mod+2 workspace 2; scratchpad show
-bindsym $mod+3 workspace 3; scratchpad show
-bindsym $mod+4 workspace 4; scratchpad show
-bindsym $mod+5 workspace 5; scratchpad show
-bindsym $mod+6 workspace 6; scratchpad show
-bindsym $mod+7 workspace 7; scratchpad show
-bindsym $mod+8 workspace 8; scratchpad show
-bindsym $mod+9 workspace 9; scratchpad show
-bindsym $mod+0 workspace 10; scratchpad show
+bindsym $mod+1 workspace 1; scratchpad show; focus mode_toggle
+bindsym $mod+2 workspace 2; scratchpad show; focus mode_toggle
+bindsym $mod+3 workspace 3; scratchpad show; focus mode_toggle
+bindsym $mod+4 workspace 4; scratchpad show; focus mode_toggle
+bindsym $mod+5 workspace 5; scratchpad show; focus mode_toggle
+bindsym $mod+6 workspace 6; scratchpad show; focus mode_toggle
+bindsym $mod+7 workspace 7; scratchpad show; focus mode_toggle
+bindsym $mod+8 workspace 8; scratchpad show; focus mode_toggle
+bindsym $mod+9 workspace 9; scratchpad show; focus mode_toggle
+bindsym $mod+0 workspace 10; scratchpad show; focus mode_toggle
+bindsym Mod1+1 workspace 1; scratchpad show; focus mode_toggle
+bindsym Mod1+2 workspace 2; scratchpad show; focus mode_toggle
+bindsym Mod1+3 workspace 3; scratchpad show; focus mode_toggle
+bindsym Mod1+4 workspace 4; scratchpad show; focus mode_toggle
+bindsym Mod1+5 workspace 5; scratchpad show; focus mode_toggle
+bindsym Mod1+6 workspace 6; scratchpad show; focus mode_toggle
+bindsym Mod1+7 workspace 7; scratchpad show; focus mode_toggle
+bindsym Mod1+8 workspace 8; scratchpad show; focus mode_toggle
+bindsym Mod1+9 workspace 9; scratchpad show; focus mode_toggle
+bindsym Mod1+0 workspace 10; scratchpad show; focus mode_toggle
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1

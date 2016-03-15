@@ -36,7 +36,7 @@
     (add-hook
      'org-mode-hook
      (lambda ()
-       (visual-line-mode 1)
+       (visual-line-mode)
        (setq visual-fill-column-width 79)
        (visual-fill-column-mode 1)))))
 

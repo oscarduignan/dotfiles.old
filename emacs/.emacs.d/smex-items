@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ visual-line-mode
+ find-file-fullscreen
  delete-window
  neotree-projectile-action
  linum-mode
  line-number-mode
  make-directory
- toggle-truncate-lines
- visual-line-mode
 )
 
 ;; ----- smex-data -----
@@ -35,7 +35,7 @@
  (rename-file . 1)
  (diredp-rename-this-file . 1)
  (visual-fill-column-mode . 4)
- (visual-line-mode . 5)
+ (visual-line-mode . 7)
  (eshell . 5)
  (recover-file . 1)
  (powerline-nano-theme . 1)
@@ -64,4 +64,5 @@
  (neotree-change-root . 1)
  (neotree-projectile-action . 1)
  (delete-window . 1)
+ (find-file-fullscreen . 1)
 )
