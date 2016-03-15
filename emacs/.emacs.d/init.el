@@ -14,7 +14,7 @@
 ; Require custom elisp
 (require 'setup-packages)
 (require 'setup-emacs)
-(require 'setup-search)
+(require 'setup-helm)
 (require 'setup-projects)
 (require 'setup-git)
 (require 'setup-evil)

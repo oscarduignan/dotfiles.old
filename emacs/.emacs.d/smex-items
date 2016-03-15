@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ helm-all-mark-rings
+ comment-dwim
+ comment-region
+ linum-mode
+ whitespace-mode
  visual-line-mode
  find-file-fullscreen
- delete-window
- neotree-projectile-action
- linum-mode
- line-number-mode
- make-directory
 )
 
 ;; ----- smex-data -----
@@ -22,7 +22,7 @@
  (projectile-project-buffers-other-buffer . 2)
  (recover-this-file . 2)
  (delete-trailing-whitespace . 2)
- (linum-mode . 10)
+ (linum-mode . 12)
  (diff-buffer-with-file . 1)
  (diff-hl-mode . 8)
  (global-diff-hl-mode . 3)
@@ -65,4 +65,8 @@
  (neotree-projectile-action . 1)
  (delete-window . 1)
  (find-file-fullscreen . 1)
+ (whitespace-mode . 2)
+ (comment-region . 1)
+ (comment-dwim . 1)
+ (helm-all-mark-rings . 1)
 )

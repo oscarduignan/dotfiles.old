@@ -56,4 +56,6 @@
   (setq powerline-display-hud nil)
   (powerline-default-theme))
 
+(use-package php-mode)
+
 (provide 'setup-emacs)
