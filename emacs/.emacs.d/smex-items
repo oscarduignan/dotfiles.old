@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- helm-find-files
- helm-recentf
- helm-do-ag
- helm-do-ag-project-root
- helm-projects-find-files
- helm-ag-project-root
- helm-all-mark-rings
+ linum-mode
+ describe-font
+ global-linum-mode
+ comment-dwim
+ c-objc-menu
+ toggle-truncate-lines
+ whitespace-mode
 )
 
 ;; ----- smex-data -----
 (
  (projectile-global-mode . 2)
- (line-number-mode . 4)
+ (line-number-mode . 5)
  (recentf-mode . 1)
  (speedbar . 1)
  (customize-option . 1)
@@ -22,11 +22,11 @@
  (projectile-project-buffers-other-buffer . 2)
  (recover-this-file . 2)
  (delete-trailing-whitespace . 2)
- (linum-mode . 12)
+ (linum-mode . 18)
  (diff-buffer-with-file . 1)
  (diff-hl-mode . 8)
  (global-diff-hl-mode . 3)
- (global-linum-mode . 1)
+ (global-linum-mode . 4)
  (evil-insert . 2)
  (company-mode . 2)
  (evil-normal-state . 1)
@@ -35,14 +35,14 @@
  (rename-file . 1)
  (diredp-rename-this-file . 1)
  (visual-fill-column-mode . 4)
- (visual-line-mode . 7)
+ (visual-line-mode . 8)
  (eshell . 5)
  (recover-file . 1)
  (powerline-nano-theme . 1)
  (powerline-vim-theme . 1)
  (enable-theme . 1)
  (read-only-mode . 1)
- (js2-jump-to-definition . 6)
+ (js2-jump-to-definition . 7)
  (tern-find-definition . 8)
  (tern-find-definition-by-name . 2)
  (tern-mode . 3)
@@ -51,7 +51,7 @@
  (tern-highlight-refs . 1)
  (evil-open-fold . 2)
  (evil-open-folds . 1)
- (neotree-refresh . 6)
+ (neotree-refresh . 7)
  (neotree . 1)
  (split-window-right . 1)
  (split-window-vertically . 1)
@@ -60,14 +60,14 @@
  (make-directory . 2)
  (set-variable . 1)
  (toggle-word-wrap . 2)
- (toggle-truncate-lines . 5)
+ (toggle-truncate-lines . 9)
  (neotree-change-root . 1)
  (neotree-projectile-action . 1)
  (delete-window . 1)
  (find-file-fullscreen . 1)
- (whitespace-mode . 2)
+ (whitespace-mode . 6)
  (comment-region . 1)
- (comment-dwim . 1)
+ (comment-dwim . 16)
  (helm-all-mark-rings . 1)
  (helm-ag-project-root . 1)
  (helm-projects-find-files . 1)
@@ -75,4 +75,12 @@
  (helm-do-ag . 1)
  (helm-recentf . 1)
  (helm-find-files . 1)
+ (neotree-dir . 1)
+ (diff-hl-next-hunk . 1)
+ (evil-goto-definition . 1)
+ (whitespace-cleanup . 1)
+ (fixup-whitespace . 1)
+ (alchemist-goto-definition-at-point . 1)
+ (c-objc-menu . 2)
+ (describe-font . 2)
 )

@@ -6,7 +6,8 @@
 	evil-insert-state-tag (propertize "Insert" 'face '((:background "black" :foreground "red")))
 	evil-motion-state-tag (propertize "M" 'face '((:background "blue")))
 	evil-visual-state-tag (propertize "Visual" 'face '((:background "black" :foreground "grey80")))
-	evil-operator-state-tag (propertize "O" 'face '((:background "purple")))))
+	evil-operator-state-tag (propertize "O" 'face '((:background "purple"))))
+  (define-key evil-normal-state-map (kbd "M-.") nil))
 
 (use-package evil-leader
   :config
@@ -43,6 +44,6 @@
 (define-key evil-visual-state-map (kbd ">") 'evil-shift-right-visual)
 (define-key evil-visual-state-map (kbd "<") 'evil-shift-left-visual)
 (define-key evil-visual-state-map [tab] 'evil-shift-right-visual)
-(define-key evil-visual-state-map [S-tab] 'evil-shift-left-visual)
+(define-key evil-visual-state-map [backtab] 'evil-shift-left-visual)
 
 (provide 'setup-evil)

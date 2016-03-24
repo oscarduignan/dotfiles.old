@@ -4,13 +4,13 @@
 
 (show-paren-mode 1)
 
-;;(global-linum-mode 1)
+(global-linum-mode 1)
 
 ;; show me the column number in modeline
 (setq column-number-mode t)
 
 ;; don't wrap lines by default
-(setq-default truncate-lines nil)
+(set-default truncate-lines nil)
 
 ;; Auto refresh buffers
 (global-auto-revert-mode 1)
@@ -48,6 +48,10 @@
     (delete-other-windows))
 
 (global-set-key (kbd "C-x C-z") 'find-file-fullscreen)
+
+;; used to be deja vu sans mono 15, trying this out as a change
+(set-default-font
+ "-unknown-Input-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1")
 
 (use-package powerline
   :config
