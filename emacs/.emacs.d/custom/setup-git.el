@@ -11,9 +11,15 @@
   (jump-to-register :magit-fullscreen))
 
 (use-package magit
-  :bind ("C-x g" . magit-status)
+  :bind
+  ("C-x g" . magit-status)
+  ("C-x M-g" . magit-dispatch-popup)
   :config
+  (global-magit-file-mode)
   (define-key magit-status-mode-map (kbd "q") 'magit-quit-session)
+  (with-eval-after-load "evil"
+    (evil-make-overriding-map magit-blame-mode-map 'normal)
+    (add-hook 'magit-blame-mode-hook 'evil-normalize-keymaps))
   (with-eval-after-load "diff-hl"
     (add-hook 'magit-post-refresh-hook 'diff-hl-magit-post-refresh)))
 
