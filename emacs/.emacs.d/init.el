@@ -26,6 +26,7 @@
 (require 'setup-ido)
 (require 'setup-flycheck)
 (require 'setup-js)
+(require 'setup-scss)
 (require 'setup-html)
 (require 'setup-orgmode)
 (require 'setup-keybindings)

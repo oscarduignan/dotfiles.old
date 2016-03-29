@@ -10,7 +10,7 @@
 (setq column-number-mode t)
 
 ;; don't wrap lines by default
-(set-default truncate-lines nil)
+(setq-default truncate-lines t)
 
 ;; Auto refresh buffers
 (global-auto-revert-mode 1)

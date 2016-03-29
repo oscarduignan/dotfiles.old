@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/js/" . "__tests__/")
  ("/home/oscar/Projects/ppl/v2/elixir/src/" . "ppl/")
  ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/templates/" . "layout/")
  ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/lib/mix/" . "tasks/")
@@ -32,22 +33,25 @@
  ("/home/oscar/Projects/ppl/v2/" . "ppl/")
  ("/home/oscar/Projects/ppl/" . "v2/")
  ("/home/oscar/Projects/" . "BAS/")
- ("/home/oscar/" . ".i3/")
+ ("/home/oscar/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/oscar/Projects/ppl/v2/elixir/src/ppl/"
+ #("/home/oscar/.emacs.d/custom/" 12 20 (face flx-highlight-face) 21 28 (face flx-highlight-face))
+ "/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/js/__tests__/"
+ "/home/oscar/.emacs.d/"
+ "/home/oscar/dotfiles/emacs/.emacs.d/custom/"
  "/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/js/"
+ "/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/js/components/"
+ "/home/oscar/Projects/ppl/v2/elixir/src/ppl/"
  "/home/oscar/dotfiles/emacs/.emacs.d/"
  "/home/oscar/Projects/MRC/src/includes/themes/MRC/display_objects/custom/"
  "/home/oscar/Projects/MRC/src/includes/themes/MRC/css/theme/"
  "/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/models/"
- "/home/oscar/.emacs.d/custom/"
  "/home/oscar/Projects/ppl/v2/elixir/"
  "/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/auth/"
  "/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/templates/layout/"
- "/home/oscar/dotfiles/emacs/.emacs.d/custom/"
  "/home/oscar/.i3/"
  "/home/oscar/dotfiles/i3/.i3/"
  "/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/imports/components/"
@@ -71,7 +75,6 @@
  "/home/oscar/Projects/MRC/careermap/"
  "/home/oscar/Projects/ppl/v2/ppl/src/ppl/client/imports/"
  "/home/oscar/Projects/ppl/v2/ppl/src/ppl/"
- "/home/oscar/.emacs.d/"
  "/home/oscar/Projects/ppl/v2/ppl/src/ppl/shared/imports/"
  "/home/oscar/dotfiles/emacs/custom/"
  "/home/oscar/Projects/MRC/src/includes/themes/MRC/templates/"
@@ -82,29 +85,57 @@
 
 ;; ----- ido-work-file-list -----
 (
- "webpack.config.js"
- "network.js"
+ "setup-js.el"
+ "utils-test.js"
  "custom.el"
+ "setup-flycheck.el"
+ "utils.js"
+ "network.js"
+ "api.js"
+ "api-test.js"
+ "users.js"
  "main.js"
- "reducer.js"
- "dsp_career_pathways.cfm"
- "grid1140.css"
- "grid990.css"
- "friendship.ex"
- "network.ex"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ (#("/home/oscar/.emacs.d/" 12 20 (face flx-highlight-face)) (22266 28104 44768 910000) "auto-save-list/" "init.el" "eshell/" "#custom.el#" "snippets/" "./" "elpa/" "../" "custom.el" "recentf" "recentf~" "helm-adaptive-history" "ido.last" "var/" "custom/" "smex-items" "backups/" "ido.last~" "projectile-bookmarks.eld" "projectile.cache")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/js/__tests__/" (22266 27919 540470 400000) "./" "../" "utils-test.js")
+
+ ("/home/oscar/dotfiles/emacs/.emacs.d/" (22266 27605 659962 322000) "auto-save-list/" "init.el" "eshell/" "#custom.el#" "snippets/" "./" "elpa/" "../" "custom.el" "recentf" "recentf~" "helm-adaptive-history" "ido.last" "var/" "custom/" "smex-items" "backups/" "ido.last~" "projectile-bookmarks.eld" "projectile.cache")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/" (22266 27500 287791 652000) "webpack-dev-server.js" ".babelrc" "./" "_build/" ".gitignore" "../" "webpack.config.js" "test/" "mix.lock" "package.json" "README.md" "config/" "CHANGES.org" "lib/" ".eslintrc" "mix.exs" "web/" "priv/" "node_modules/" "deps/")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/js/" (22266 27651 456036 478000) "middleware.js" "routes.js" "__tests__/" "./" "utils.js" "../" "users.js" "main.js" "components/" "reducer.js" "network.js" "createStore.js" "containers/")
+
+ ("/home/oscar/.emacs.d/elpa/js2-mode-20160124.1132/" (22209 17827 850126 528000) "js2-mode-pkg.el" "js2-imenu-extras.el" "js2-mode-autoloads.el~" "./" "js2-mode.elc" "../" "js2-imenu-extras.elc" "js2-mode.el" "js2-mode-autoloads.el" "js2-old-indent.elc" "js2-old-indent.el")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/views/" (22265 51774 189371 931000) "network_view.ex" "auth_view.ex" "./" "../" "layout_view.ex" "page_view.ex" "error_helpers.ex" "user_view.ex" "error_view.ex")
+
+ ("/home/oscar/Projects/MRC/src/includes/themes/MRC/templates/" (22259 46817 413821 160000) "two_column.cfm" "./" "feature_page.cfm" "../" "home.cfm" "components/" "sildeshow.cfm" "xml.cfm" "inc/" "folder.cfm" "two_column_wide.cfm" "default.cfm" "three_column.cfm" "one_column.cfm" "blank.cfm")
+
+ ("/home/oscar/Projects/MRC/src/" (22259 46817 153819 513000) "images/" "#index.cfm#" "./" "jquery/" ".gitignore" "BIN/" "../" ".git/" "index.cfm" "README.md" "mobile/" "includes/" "js/" "version.cfm" "css/")
+
+ ("/home/oscar/" (22265 33141 23579 179000) ".keychain/" "The.Good.Dinosaur.2015.1080p.BluRay.x264-SPARKS[rarbg]/" "app-build.min.js" ".fonts/" "The Man From Nowhere (2010) [1080p]/" "lucee.retry" "wddx_rstclassextendattributes.xml" "wddx_rstcontentfilenamearchive.xml" ".swn" "playbook.retry" ".npm/" "xrandr.sh" "cms guide to career pathways class extensions.odt" ".gem/" ".v8flags.4.6.85.31.oscar.json" ".docker/" "jci_clipped_search_icon_before.png" ".v8flags.3.28.71.19.oscar.json" ".nvimlog" "connecting-with-people.txt" "JC_Editorial_942_PDC.jpg" ".swo" ".kde/" ".recently-used" ".mozilla/" ".ansible/" ".Skype/" "cms.json" "wddx_context.xml" ".profile" ".i3/" "sole-trader.txt" ".gnome2/" "rxjs.txt" "wddx_rstcontentfeeditems.xml" "Umlet/" "mobile.xcf" "Videos/" "SDD-drupal.txt" ".dropbox-dist/" "index.html" ".pgpass" "writing-meetup-feedback/" "deploy.retry" "wddx_rstcontentcategories.xml" ".bash_history" "wddx_rstpluginscripts.xml" "JC_Editorial_942_OaB.jpg" "wddx_rstfiles.xml" "Immigration_Directorate_Instruction_Appendix_FM_1_7_Financial_Requirement_August_2015.pdf" "vpn/" ".zgrviewer" "marks notes.odt" "wddx_rstclassextenddata.xml" "JC_CareLP_01_942_06.jpg" "wallpapers/" "Projects/" "IMPACT_MAPPING.mm" "The.Expanse.S01E02.1080p.HDTV.x264-BRISK[rarbg]/" "contact.html" "Music/" ".dropbox/" "tv.sh" ".xsession-errors.old" ".atom/" "The.Lobster.2015.LIMITED.1080p.BluRay.X264-AMIABLE[rarbg]/" "Documents/" ".gksu.lock" "sitefiles.zip" ".AMD/" ".yEd/" ".letter-to-ekarro.txt.swp" ".sublime-projects/" "en_windows_7_professional_with_sp1_x64_dvd_u_676939.iso" "wddx_rstclassextend.xml" "ansible.retry" "Popcorn-Time" "dotfiles/" ".java/" ".electron/" ".pip/" "ebooks/" "Calibre Library/" ".emacs.d/" "wddx_rstcontentfilemetadata.xml" ".swp" ".dbus/" ".gimp-2.8/" ".mplayer/" "Fargo.S02E02.720p.HDTV.x264-KILLERS[rarbg]/" "popcorntime.png" "staging.retry" "vagrant_railo_and_mysql.retry" "wddx_rstcontentfeeds.xml" "The.Expanse.S01E03.1080p.WEB-DL.DD5.1.H264-RARBG/" "locales/" "151207_RR02.jpg" "JC_CareLP_01_942_09.jpg" "mozilla.pdf" "wddx_rstcontentcommentcommenters.xml" "Bridge.of.Spies.2015.1080p.BluRay.x264-SPARKS[rarbg]/" "linked-captioned-images.png" ".adobe/" "wddx_bundleablebeans.xml" "Downloads/" ".dmrc" "BVCS HOW TOs (updated 110508).doc" "wddx_rstimagesizes.xml" "jenkins_server.retry" ".sudo_as_admin_successful" "tor-browser_en-US/" ".pencil/" "aescrypt-3.10/" ".putty/" ".subversion/" "wddx_tclassextendrcsets.xml" ".gnome/" ".swm" ".miro/" ".gnupg/" "The.Expanse.S01E04.1080p.WEB-DL.DD5.1.H264-RARBG/" "Fargo.S02E03.The.Myth.Of.Sisyphus.1080p.NF.WEBRip.DD5.1.x264-NTb[rarbg]/" ".rubies/" "Arundel_Map_2015.pdf" ".nano/" "core" "wddx_rstcontentcategoryassign.xml" "bitnami-hosting.7z" "5TAjKqWf.mkv" "The.Expanse.S01E01.1080p.HDTV.x264-BRISK[rarbg]/" "wddx_rstchangesetcategoryassign.xml" "Star.Wars.Episode.VII.The.Force.Awakens.2015.1080p.BluRay.x264-Replica[rarbg]/" "vagrant.retry" "Search icon.psd" ".meteorsession" "Bone.Tomahawk.2015.1080p.BluRay.x264.DTS-HD.MA.5.1-RARBG/" "Peppa.Pig.Peppas.Christmas.2015.HDRip.XviD.AC3-EVO/" "Archi/" "Team Umizoomi Season 3 480p HDRIP Xvid Mp3-FooKaS/" ".archi/" "tmp/" "jci-reset-pass-2.png" "install" "mikado-test.dot" "JC_CareLP_01_942_08.jpg" "The.Gift.2015.1080p.BluRay.x264-DRONES[rarbg]/" "ansible/" "test/" "The Lion King 2 (1998)/" "__MACOSX/" ".viminfo" "popcorntime/" "access_log" "icudtl.dat" "jci-reset-pass-1.png" "christmas.txt" "wddx_rstcontentrelated.xml" ".freemind/" ".vagrant.d/" ".swj" "C807182E-5056-A318-A800EF9A041275E0.xls" "Hey both, I didn't work on the original foftravel" ".gconf/" "Anomalisa.2015.720p.WEB-DL.DD5.1.H264-RARBG/" ".ipython/" "wiki/" "Screen Shot 2015-02-23 at 16.54.20.png" "JC_Editorial_942_PD.jpg" "Peppa.Pig.Potato.City.2011  Dvdrip Xvid AC3 ACAB/" ".gitconfig" "wddx_rstcontenttags.xml" "Black.Mass.2015.1080p.BluRay.x264-BLOW[rarbg]/" "bas-test/" ".config/" "10-million-combos.txt" "2015-09-23.jpg" "dotfiles.backup/" "The.Hateful.Eight.2015.1080p.BluRay.x264-SPARKS[rarbg]/" "f.lux-indicator-applet/" "Elastic Search Plugins/" ".mix/" "recorded.gif" ".writing/" "UMLet/" "camercunt.png" "erlang-solutions_1.0_all.deb" "wddx_rstmailinglist.xml" "^-" "oscar.dat" ".macromedia/" ".swk" ".vim/" "contact-us.html" "Neon Genesis Evangelion/" "wddx_rstcontent.xml" "bernie.txt" "robots.txt" "Windows/" "noname.gv" "JC_CareLP_01_942_05.jpg" "wddx_assetPath.xml" "yEd/" ".bash_logout" "wddx_rstapprovalmemberships.xml" ".charles.config" "wddx_rstapprovalactions.xml" ".saves/" "Templates/" "beeminder.txt" "My Neighbor Totoro aka Tonari no Totoro (1988) 720p BRRiP x264 AAC [Team Nanban]/" "2015 Annual report (camille)/" "zgrviewer-0.10.0/" "JC_Editorial_942_PDC_01.jpg" ".lesshst" "Kiki's Delivery Service (1989) [MULTI-AUDIO] [1080p] [HEVC] [x265]/" "Airspace_MCMS_custom_form_movements_2015.cfm" "chillout/" "wddx_rstchangesets.xml" "mura-elasticsearch-2015-05-06.ogv" "workflowy.odt" "cbi-page-speed-pingdom.png" "wddx_rstapprovalrequests.xml" ".gnucash/" ".docker.txt.swp" "SocialMediaIcons_active.jpg" "notes/" ".bin/" ".node_repl_history" "wddx_bundledate.xml" "writings/" ".meteor/" "terraform/" ".npmrc" ".rnd" "The.Big.Short.2015.1080p.BluRay.x264-Replica[rarbg]/" "out.ogv" "Dropbox/" "zip" ".node-gyp/" ".nviminfo" "SocialMediaIcons.psd" ".babel-cache/" ".kde-backup/" ".thumbnails/" ".gstreamer-0.10/" "Public/" "libffmpegsumo.so" "erlang-solutions_1.0_all.deb.1" "Forum_P4_03.jpg" "win7 with sp1 iso[danhuk2k13][kickass.to]/" "untrusted-origin-js-error-when-video-embedded.png" ".local/" "psd extracts/" "784201617_RAF100_DesignPrinciples_St4B_JP_220515_files/" "wddx_rstapprovalassignments.xml" ".xmind/" "Screen Shot 2015-02-23 at 16.53.40.png" "2015-10-02 11-17-05.flv" "Desktop/" ".synergy/" "JC_Editorial_942_video03.jpg" ".travis/" ".aws/" ".gtkrc-2.0" "image-of-the-day-1.mkv" "fofv2/" "CategoryFilter/" "Iain Banks/" "150710_Layout_v1.2.jpg" "out-1.ogv" ".terraform.d/" ".fonts.conf" ".directory" "Dockerfile" "kdenlive/" "Ip.Man.3.2015.1080p.BluRay.X264-KaKa[rarbg]/" "Star.Wars.Episode.VII.The.Force.Awakens.2015.1080p.BluRay.x264.DTS-JYK/" ".babel.json" "package.nw" "jci-nested-list-styles.png" "letter-for-ekaro.txt" "Inherent.Vice.2014.720p.BluRay.x264.YIFY.mp4" ".pgadmin3" "provision.retry" "wddx_rstsystemobjects.xml" ".charles/" "jci_clipped_search_icon_after.png" "wddx_rstclassextendsets.xml" ".swl" "jci-reset-pass-5.png" ".screenlayout/" "jci-reset-pass-3.png" "wddx_rstapprovalchains.xml" "mikado-test.jpg" "mysql.retry" ".install4j" ".mysql_history" ".swi" "PhpStorm-139.1348/" "VirtualBox VMs/" ".ssh/" "wddx_rstcontentfeedadvancedparams.xml" "wddx_rstplugindisplayobjects.xml" ".pki/" "Submit a Ticket - Battle (re: 52405132 ).pdf" ".cache/" "wddx_rstpluginsettings.xml" "timesheet.docx" "Fargo.S02E01.Waiting.for.Dutch.1080p.WEB-DL.DD5.1.H.264-Coo7[rarbg]/" "jci-reset-pass-4.png" ".gtk-recordmydesktop" ".Xauthority" "gphc-annual-report/" "wddx_rstpluginmodules.xml" "gphc-annual-report.zip" "image-of-the-day-1.gif" "resolve.conf.backup" "docker.txt" "Weir, Andy/" "C807182E-5056-A318-A800EF9A041275E0.xls.aes" "The Revenant 2015 1080p WEB-DL x264 AC3-JYK/" "pgadmin.log" ".xsession-errors" ".lastpass/" "gifs/" "ppl.odt" "binaryvision.docx" ".wordpress.txt.swp" "lumen's movies/" "bernie reply.odt" "recordings/" "dns" ".kingsoft/" ".hex/" "wddx_rstplugins.xml" "cbi-dnn-desc.odt" "inherent.vice.2014.720p.bluray.x264-sparks.mkv" ".bashrc" ".WebIde80/" ".cordova/" "wddx_hasmetadata.xml" "priorities.txt" ".composer/" "wddx_rssite.xml" "SocialMediaIcons_unactive.jpg" "Pictures/" "cbi-page-speed-pingdom1.png" ".v8flags.3.14.5.9.oscar.json" "tHsn9Bvz.mkv" "google2dbc9762bd7a205f.html" ".wicd/" "keybase-latest-amd64.deb" "nw.pak" "wddx_rstcontentobjects.xml" "wddx_sincedate.xml" "gPodder/" "peppa 3/" "../" "./")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/scss/" (22262 11388 79061 926000) "./" "../" "main.scss")
+
+ ("/home/oscar/dotfiles/emacs/.emacs.d/custom/" (22261 40698 719295 675000) "setup-ido.el" "setup-emacs.el~" "setup-keybindings.el~" "setup-dired.el" "setup-expand-region.el" "setup-git.el" "setup-ledger.el" "./" "setup-helm.el" "setup-neotree.el~" "setup-js.el" "../" "setup-snippets.el" "setup-evil.el" "setup-emacs.el" "#setup-packages.el#" "setup-recentf.el~" "setup-complete.el" "setup-projects.el" "setup-server.el" "setup-neotree.el" "setup-packages.el" "setup-keybindings.el" "setup-alchemist.el~" "setup-edit-server.el~" "setup-flycheck.el" "setup-ace-jump-mode.el" "setup-orgmode.el" "setup-alchemist.el" "setup-recentf.el" "setup-html.el" "setup-scss.el" "setup-help.el")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/auth/" (22259 2791 202768 912000) "./" "../" "guardian_serializer.ex" "auth.ex")
+
+ ("/home/oscar/.emacs.d/custom/" (22261 40698 719295 675000) "setup-ido.el" "setup-emacs.el~" "setup-keybindings.el~" "setup-dired.el" "setup-expand-region.el" "setup-git.el" "setup-ledger.el" "./" "setup-helm.el" "setup-neotree.el~" "setup-js.el" "../" "setup-snippets.el" "setup-evil.el" "setup-emacs.el" "#setup-packages.el#" "setup-recentf.el~" "setup-complete.el" "setup-projects.el" "setup-server.el" "setup-neotree.el" "setup-packages.el" "setup-keybindings.el" "setup-alchemist.el~" "setup-edit-server.el~" "setup-flycheck.el" "setup-ace-jump-mode.el" "setup-orgmode.el" "setup-alchemist.el" "setup-recentf.el" "setup-html.el" "setup-scss.el" "setup-help.el")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/js/components/" (22262 13011 485748 526000) "App.js" "./" "../" "index.js" "HomePage.js" "LoginPage.js")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/test/" (22257 13411 284077 419000) "test_helper.exs" "./" "../" "channels/" "controllers/" "support/" "models/" "views/")
+
+ ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/test/support/" (22257 12793 289743 9000) "neo4j_model_case.ex" "conn_case.ex" "./" "../" "channel_case.ex" "model_case.ex" "neo4j_conn_case.ex")
+
  ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/controllers/" (22257 15750 48179 664000) "page_controller.ex" "./" "../" "network_controller.ex" "auth_controller.ex")
 
- ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/" (22257 23763 572304 371000) "webpack-dev-server.js" ".babelrc" "./" "_build/" ".gitignore" "../" "webpack.config.js" "test/" "mix.lock" "package.json" "README.md" "config/" "CHANGES.org" "lib/" ".eslintrc" "mix.exs" "web/" "priv/" "node_modules/" "deps/")
-
  ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/" (22259 2896 900240 33000) "web.ex" "./" "auth/" "../" "gettext.ex" "channels/" "controllers/" "utils/" "router.ex" "static/" "templates/" "models/" "views/")
-
- ("/home/oscar/dotfiles/emacs/.emacs.d/" (22259 58272 245627 893000) "auto-save-list/" "init.el" "eshell/" "#custom.el#" "snippets/" "./" "elpa/" "../" "custom.el" "recentf" "recentf~" "helm-adaptive-history" "ido.last" "#!home!oscar!Projects!ppl!v2!elixir!src!ppl!web!models!network.ex#" "var/" "custom/" "smex-items" "backups/" "ido.last~" "projectile-bookmarks.eld" "projectile.cache")
-
- ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/js/" (22257 21769 651371 496000) "middleware.js" "routes.js" "./" "../" "main.js" "reducer.js" "network.js" "createStore.js" "containers/")
 
  ("/home/oscar/Projects/MRC/src/includes/themes/MRC/css/theme/" (22259 50403 707994 454000) "PIE.htc" "core.css" "grid990.css" "./" "../" "calibri.css" "print.css" "paginatedForm.css" "calibri/" "old.core.css" "mrc/" "ie/" "grid1140.css")
 
@@ -114,19 +145,11 @@
 
  ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/models/" (22253 6156 135310 651000) "user.ex" "./" "../" "authorization.ex" "network.ex" "friendship.ex")
 
- ("/home/oscar/.emacs.d/" (22251 64336 515273 313000) "auto-save-list/" "init.el" "eshell/" "#custom.el#" "snippets/" "./" "elpa/" "../" "custom.el" "recentf" "recentf~" "helm-adaptive-history" "ido.last" "var/" "custom/" "smex-items" "backups/" "ido.last~" "projectile-bookmarks.eld" "projectile.cache")
-
- ("/home/oscar/" (22252 5897 869865 75000) ".keychain/" "app-build.min.js" ".fonts/" "The Man From Nowhere (2010) [1080p]/" "lucee.retry" "wddx_rstclassextendattributes.xml" "wddx_rstcontentfilenamearchive.xml" ".swn" "playbook.retry" ".npm/" "xrandr.sh" "cms guide to career pathways class extensions.odt" ".gem/" ".v8flags.4.6.85.31.oscar.json" ".docker/" "jci_clipped_search_icon_before.png" ".v8flags.3.28.71.19.oscar.json" ".nvimlog" "connecting-with-people.txt" "JC_Editorial_942_PDC.jpg" ".swo" ".kde/" ".recently-used" ".mozilla/" ".ansible/" ".Skype/" "cms.json" "wddx_context.xml" ".profile" ".i3/" "sole-trader.txt" ".gnome2/" "rxjs.txt" "wddx_rstcontentfeeditems.xml" "Umlet/" "mobile.xcf" "Videos/" "SDD-drupal.txt" ".dropbox-dist/" "index.html" ".pgpass" "writing-meetup-feedback/" "deploy.retry" "wddx_rstcontentcategories.xml" ".bash_history" "wddx_rstpluginscripts.xml" "JC_Editorial_942_OaB.jpg" "wddx_rstfiles.xml" "Immigration_Directorate_Instruction_Appendix_FM_1_7_Financial_Requirement_August_2015.pdf" "vpn/" ".zgrviewer" "marks notes.odt" "wddx_rstclassextenddata.xml" "JC_CareLP_01_942_06.jpg" "wallpapers/" "Projects/" "IMPACT_MAPPING.mm" "The.Expanse.S01E02.1080p.HDTV.x264-BRISK[rarbg]/" "contact.html" "Music/" ".dropbox/" "tv.sh" ".xsession-errors.old" ".atom/" "The.Lobster.2015.LIMITED.1080p.BluRay.X264-AMIABLE[rarbg]/" "Documents/" ".gksu.lock" "sitefiles.zip" ".AMD/" ".yEd/" ".letter-to-ekarro.txt.swp" ".sublime-projects/" "en_windows_7_professional_with_sp1_x64_dvd_u_676939.iso" "wddx_rstclassextend.xml" "ansible.retry" "Popcorn-Time" "dotfiles/" ".java/" ".electron/" ".pip/" "ebooks/" "Calibre Library/" ".emacs.d/" "wddx_rstcontentfilemetadata.xml" ".swp" ".dbus/" ".gimp-2.8/" ".mplayer/" "Fargo.S02E02.720p.HDTV.x264-KILLERS[rarbg]/" "popcorntime.png" "staging.retry" "vagrant_railo_and_mysql.retry" "wddx_rstcontentfeeds.xml" "The.Expanse.S01E03.1080p.WEB-DL.DD5.1.H264-RARBG/" "locales/" "151207_RR02.jpg" "JC_CareLP_01_942_09.jpg" "mozilla.pdf" "wddx_rstcontentcommentcommenters.xml" "Bridge.of.Spies.2015.1080p.BluRay.x264-SPARKS[rarbg]/" "linked-captioned-images.png" ".adobe/" "wddx_bundleablebeans.xml" "Downloads/" ".dmrc" "BVCS HOW TOs (updated 110508).doc" "wddx_rstimagesizes.xml" "jenkins_server.retry" ".sudo_as_admin_successful" "tor-browser_en-US/" ".pencil/" "aescrypt-3.10/" ".putty/" ".subversion/" "wddx_tclassextendrcsets.xml" ".gnome/" ".swm" ".gnupg/" "The.Expanse.S01E04.1080p.WEB-DL.DD5.1.H264-RARBG/" "Fargo.S02E03.The.Myth.Of.Sisyphus.1080p.NF.WEBRip.DD5.1.x264-NTb[rarbg]/" ".rubies/" "Arundel_Map_2015.pdf" ".nano/" "core" "wddx_rstcontentcategoryassign.xml" "bitnami-hosting.7z" "5TAjKqWf.mkv" "The.Expanse.S01E01.1080p.HDTV.x264-BRISK[rarbg]/" "wddx_rstchangesetcategoryassign.xml" "vagrant.retry" "Search icon.psd" ".meteorsession" "Bone.Tomahawk.2015.1080p.BluRay.x264.DTS-HD.MA.5.1-RARBG/" "Peppa.Pig.Peppas.Christmas.2015.HDRip.XviD.AC3-EVO/" "Archi/" "Team Umizoomi Season 3 480p HDRIP Xvid Mp3-FooKaS/" ".archi/" "tmp/" "jci-reset-pass-2.png" "install" "mikado-test.dot" "JC_CareLP_01_942_08.jpg" "The.Gift.2015.1080p.BluRay.x264-DRONES[rarbg]/" "ansible/" "test/" "The Lion King 2 (1998)/" "__MACOSX/" ".viminfo" "popcorntime/" "access_log" "icudtl.dat" "jci-reset-pass-1.png" "christmas.txt" "wddx_rstcontentrelated.xml" ".freemind/" ".vagrant.d/" ".swj" "C807182E-5056-A318-A800EF9A041275E0.xls" "Hey both, I didn't work on the original foftravel" ".gconf/" ".ipython/" "wiki/" "Screen Shot 2015-02-23 at 16.54.20.png" "JC_Editorial_942_PD.jpg" "Peppa.Pig.Potato.City.2011  Dvdrip Xvid AC3 ACAB/" ".gitconfig" "wddx_rstcontenttags.xml" "Black.Mass.2015.1080p.BluRay.x264-BLOW[rarbg]/" "bas-test/" ".config/" "10-million-combos.txt" "2015-09-23.jpg" "dotfiles.backup/" "The.Hateful.Eight.2015.1080p.BluRay.x264-SPARKS[rarbg]/" "f.lux-indicator-applet/" "Elastic Search Plugins/" ".mix/" "recorded.gif" ".writing/" "UMLet/" "camercunt.png" "erlang-solutions_1.0_all.deb" "wddx_rstmailinglist.xml" "^-" "oscar.dat" ".macromedia/" ".swk" ".vim/" "contact-us.html" "Neon Genesis Evangelion/" "wddx_rstcontent.xml" "bernie.txt" "robots.txt" "Windows/" "noname.gv" "JC_CareLP_01_942_05.jpg" "wddx_assetPath.xml" "yEd/" ".bash_logout" "wddx_rstapprovalmemberships.xml" ".charles.config" "wddx_rstapprovalactions.xml" ".saves/" "Templates/" "beeminder.txt" "2015 Annual report (camille)/" "zgrviewer-0.10.0/" "JC_Editorial_942_PDC_01.jpg" ".lesshst" "Airspace_MCMS_custom_form_movements_2015.cfm" "chillout/" "wddx_rstchangesets.xml" "mura-elasticsearch-2015-05-06.ogv" "workflowy.odt" "cbi-page-speed-pingdom.png" "wddx_rstapprovalrequests.xml" ".gnucash/" ".docker.txt.swp" "SocialMediaIcons_active.jpg" "notes/" ".bin/" ".node_repl_history" "wddx_bundledate.xml" "writings/" ".meteor/" "terraform/" ".npmrc" ".rnd" "The.Big.Short.2015.1080p.BluRay.x264-Replica[rarbg]/" "out.ogv" "Dropbox/" "zip" ".node-gyp/" ".nviminfo" "SocialMediaIcons.psd" ".babel-cache/" ".kde-backup/" ".thumbnails/" ".gstreamer-0.10/" "Public/" "libffmpegsumo.so" "erlang-solutions_1.0_all.deb.1" "Forum_P4_03.jpg" "win7 with sp1 iso[danhuk2k13][kickass.to]/" "untrusted-origin-js-error-when-video-embedded.png" ".local/" "psd extracts/" "784201617_RAF100_DesignPrinciples_St4B_JP_220515_files/" "wddx_rstapprovalassignments.xml" ".xmind/" "Screen Shot 2015-02-23 at 16.53.40.png" "2015-10-02 11-17-05.flv" "Desktop/" ".synergy/" "JC_Editorial_942_video03.jpg" ".travis/" ".aws/" ".gtkrc-2.0" "image-of-the-day-1.mkv" "fofv2/" "CategoryFilter/" "Iain Banks/" "150710_Layout_v1.2.jpg" "out-1.ogv" ".terraform.d/" ".fonts.conf" ".directory" "Dockerfile" "kdenlive/" ".babel.json" "package.nw" "jci-nested-list-styles.png" "letter-for-ekaro.txt" "Inherent.Vice.2014.720p.BluRay.x264.YIFY.mp4" ".pgadmin3" "provision.retry" "wddx_rstsystemobjects.xml" ".charles/" "jci_clipped_search_icon_after.png" "wddx_rstclassextendsets.xml" ".swl" "jci-reset-pass-5.png" ".screenlayout/" "jci-reset-pass-3.png" "wddx_rstapprovalchains.xml" "mikado-test.jpg" "mysql.retry" ".install4j" ".mysql_history" ".swi" "PhpStorm-139.1348/" "VirtualBox VMs/" ".ssh/" "wddx_rstcontentfeedadvancedparams.xml" "wddx_rstplugindisplayobjects.xml" ".pki/" "Submit a Ticket - Battle (re: 52405132 ).pdf" ".cache/" "wddx_rstpluginsettings.xml" "timesheet.docx" "Fargo.S02E01.Waiting.for.Dutch.1080p.WEB-DL.DD5.1.H.264-Coo7[rarbg]/" "jci-reset-pass-4.png" ".gtk-recordmydesktop" ".Xauthority" "gphc-annual-report/" "wddx_rstpluginmodules.xml" "gphc-annual-report.zip" "image-of-the-day-1.gif" "resolve.conf.backup" "docker.txt" "Weir, Andy/" "C807182E-5056-A318-A800EF9A041275E0.xls.aes" "pgadmin.log" ".xsession-errors" ".lastpass/" "gifs/" "ppl.odt" "binaryvision.docx" ".wordpress.txt.swp" "lumen's movies/" "bernie reply.odt" "recordings/" "dns" ".kingsoft/" ".hex/" "wddx_rstplugins.xml" "cbi-dnn-desc.odt" "inherent.vice.2014.720p.bluray.x264-sparks.mkv" ".bashrc" ".WebIde80/" ".cordova/" "wddx_hasmetadata.xml" "priorities.txt" ".composer/" "wddx_rssite.xml" "SocialMediaIcons_unactive.jpg" "Pictures/" "cbi-page-speed-pingdom1.png" ".v8flags.3.14.5.9.oscar.json" "tHsn9Bvz.mkv" "google2dbc9762bd7a205f.html" ".wicd/" "keybase-latest-amd64.deb" "nw.pak" "wddx_rstcontentobjects.xml" "wddx_sincedate.xml" "peppa 3/" "../" "./")
-
  ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/test/models/" (22251 16109 751611 762000) "./" "../" "user_test.exs" "friendship_test.exs" "authorization_test.exs")
-
- ("/home/oscar/.emacs.d/custom/" (22248 35647 405468 82000) "setup-ido.el" "setup-emacs.el~" "setup-keybindings.el~" "setup-dired.el" "setup-expand-region.el" "setup-git.el" "setup-ledger.el" "./" "setup-helm.el" "setup-neotree.el~" "setup-js.el" "../" "setup-snippets.el" "setup-evil.el" "setup-emacs.el" "#setup-packages.el#" "setup-recentf.el~" "setup-complete.el" "setup-projects.el" "setup-server.el" "setup-neotree.el" "setup-packages.el" "setup-keybindings.el" "setup-alchemist.el~" "setup-edit-server.el~" "setup-flycheck.el" "setup-ace-jump-mode.el" "setup-orgmode.el" "setup-alchemist.el" "setup-recentf.el" "setup-html.el" "setup-help.el")
 
  ("/home/oscar/Projects/RAF100/" (22249 34418 834770 191000) "mura-raf100-theme/" "FS Me Pro Family Digital Web/" "./" "KlavikaWebBasic.zip" "../" "muracms/" "Fontsmith_order_FS130419.zip" "bundles/" "docker-compose.yml" "README.org" "Dockerfile" "mockups/" "KlavikaWebBasic/")
 
  ("/home/oscar/Projects/ppl/v2/elixir/" (22250 42035 395301 70000) "./" ".editorconfig" ".gitignore" "../" ".git/" "docker-compose.yml" "README.org" "OAUTH.org" "src/")
-
- ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/auth/" (22250 11696 663576 391000) "./" "../" "guardian_serializer.ex" "auth.ex")
 
  ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/lib/ppl/" (22238 229 590105 815000) "repo.ex" "./" "../" "endpoint.ex")
 
@@ -136,8 +159,6 @@
 
  ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/js/containers/" (22247 29189 860563 161000) "./" "../" "Root.js")
 
- ("/home/oscar/dotfiles/emacs/.emacs.d/custom/" (22248 35647 405468 82000) "setup-ido.el" "setup-emacs.el~" "setup-keybindings.el~" "setup-dired.el" "setup-expand-region.el" "setup-git.el" "setup-ledger.el" "./" "setup-helm.el" "setup-neotree.el~" "setup-js.el" "../" "setup-snippets.el" "setup-evil.el" "setup-emacs.el" "#setup-packages.el#" "setup-recentf.el~" "setup-complete.el" "setup-projects.el" "setup-server.el" "setup-neotree.el" "setup-packages.el" "setup-keybindings.el" "setup-alchemist.el~" "setup-edit-server.el~" "setup-flycheck.el" "setup-ace-jump-mode.el" "setup-orgmode.el" "setup-alchemist.el" "setup-recentf.el" "setup-html.el" "setup-help.el")
-
  ("/home/oscar/.i3/" (22210 62068 234213 292000) "./" "../" "config" "conkyrc" "conky-i3bar")
 
  ("/home/oscar/Projects/MRC/careermap/public/" (22224 21766 88444 572000) "build.html" "index.html" "application/" "./" "../" "iframe.html" "assets/" "performance.html")
@@ -146,13 +167,7 @@
 
  ("/home/oscar/Projects/MRC/careermap/public/assets/scss/" (22224 13301 686513 616000) "_cmapCareerStages.scss" "_cmapInteractive.scss" "./" "../" "_reset.scss" "_cmapCallout.scss" "_cmapSurveyCall.scss" "styles.scss" "_caseStudyLink.scss")
 
- ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/views/" (22240 56848 684640 159000) "auth_view.ex" "./" "../" "layout_view.ex" "page_view.ex" "error_helpers.ex" "error_view.ex")
-
  ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/templates/auth/" (22240 54708 709899 723000) "login.html.eex" "./" "../")
-
- ("/home/oscar/Projects/MRC/src/includes/themes/MRC/templates/" (22240 21434 274645 392000) "two_column.cfm" "./" "feature_page.cfm" "../" "home.cfm" "components/" "sildeshow.cfm" "xml.cfm" "inc/" "folder.cfm" "two_column_wide.cfm" "default.cfm" "three_column.cfm" "one_column.cfm" "blank.cfm")
-
- ("/home/oscar/Projects/MRC/src/" (22240 21433 878644 100000) "images/" "#index.cfm#" "./" "jquery/" ".gitignore" "BIN/" "../" ".git/" "index.cfm" "README.md" "mobile/" "includes/" "js/" "version.cfm" "css/")
 
  ("/home/oscar/Projects/BAS/2016-03-09/BAS/wordpress/wp-content/plugins/BAS/" (22240 21272 106115 115000) "phpunit.xml" "BAS.php" "composer.phar" "./" "tests/" ".gitignore" "../" "Makefile" ".git/" "package.json" "README.md" "assets/" "lib/" "composer.lock" "composer.json" "plugin.tar.gz" "vendor/" "webpack/" "node_modules/")
 
@@ -175,8 +190,6 @@
  ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/lib/mix/tasks/" (22235 5354 491521 512000) "digest.ex~" "./" "digest.ex" "../")
 
  ("/home/oscar/Projects/ppl/v2/elixir/src/" (22233 64378 978592 513000) "ppl/" "./" "../")
-
- ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/web/static/scss/" (22235 4408 199739 826000) "./" "../" "main.scss")
 
  ("/home/oscar/Projects/ppl/v2/elixir/src/ppl/lib/mix/" (22234 4992 484581 252000) "./" "../" "tasks/")
 

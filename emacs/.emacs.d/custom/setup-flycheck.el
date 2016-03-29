@@ -1,7 +1,8 @@
 (use-package flycheck
   :config
-  ;; Start it automatically for all modes except ELisp mode,
-  ;; where the linter is just designed to make you mad.
+  (setq-default flycheck-disabled-checkers
+    (append flycheck-disabled-checkers
+	'(javascript-jshint)))
   (add-hook 'find-file-hook
             (lambda ()
               (when (not (equal 'emacs-lisp-mode major-mode))

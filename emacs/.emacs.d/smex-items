@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- linum-mode
- describe-font
- global-linum-mode
- comment-dwim
- c-objc-menu
- toggle-truncate-lines
+ customize-group
+ flycheck-buffer
+ flycheck-clear
  whitespace-mode
+ comment-region
+ comment-dwim
+ make-directory
 )
 
 ;; ----- smex-data -----
@@ -51,13 +51,13 @@
  (tern-highlight-refs . 1)
  (evil-open-fold . 2)
  (evil-open-folds . 1)
- (neotree-refresh . 7)
+ (neotree-refresh . 9)
  (neotree . 1)
  (split-window-right . 1)
  (split-window-vertically . 1)
  (buffer-menu . 1)
  (elixir-mode . 2)
- (make-directory . 2)
+ (make-directory . 3)
  (set-variable . 1)
  (toggle-word-wrap . 2)
  (toggle-truncate-lines . 9)
@@ -65,9 +65,9 @@
  (neotree-projectile-action . 1)
  (delete-window . 1)
  (find-file-fullscreen . 1)
- (whitespace-mode . 6)
- (comment-region . 1)
- (comment-dwim . 16)
+ (whitespace-mode . 8)
+ (comment-region . 3)
+ (comment-dwim . 17)
  (helm-all-mark-rings . 1)
  (helm-ag-project-root . 1)
  (helm-projects-find-files . 1)
@@ -83,4 +83,7 @@
  (alchemist-goto-definition-at-point . 1)
  (c-objc-menu . 2)
  (describe-font . 2)
+ (flycheck-clear . 1)
+ (flycheck-buffer . 1)
+ (customize-group . 1)
 )
